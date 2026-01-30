@@ -1,0 +1,253 @@
+{
+  "lang": "ro",
+  "langName": "Română",
+  "meta": {
+    "title": "FleetKeeper - Nu Rata Niciodată un Termen | Aplicație de Management al Expirărilor pentru Flotă",
+    "description": "FleetKeeper ajută companiile de transport să urmărească inspecțiile vehiculelor, permisele de conducere, reînnoirile asigurărilor și peste 100 de tipuri de expirări. Primește notificări inteligente înainte de termene. Gratuit pentru flote mici."
+  },
+  "nav": {
+    "features": "Funcționalități",
+    "howItWorks": "Cum Funcționează",
+    "pricing": "Prețuri",
+    "faq": "Întrebări Frecvente",
+    "download": "Descarcă Aplicația"
+  },
+  "hero": {
+    "badge": "Disponibil acum pentru iOS și Android",
+    "title": "Nu Rata Niciodată un",
+    "titleHighlight": "Termen",
+    "titleEnd": "",
+    "description": "Urmărește inspecțiile vehiculelor, permisele de conducere, reînnoirile asigurărilor și peste 100 de tipuri de expirări. Primește notificări inteligente înainte de termene. Rămâi conform, evită amenzile.",
+    "downloadFree": "Descarcă Gratuit",
+    "seeHowItWorks": "Vezi Cum Funcționează",
+    "stats": {
+      "expirationTypes": "Tipuri de Expirări",
+      "languages": "Limbi",
+      "freeForSmallFleets": "Pentru Flote Mici"
+    }
+  },
+  "trust": {
+    "text": "De încredere pentru companiile de transport din Europa",
+    "gdpr": "Conform GDPR",
+    "secure": "Date Securizate",
+    "languages": "12 Limbi",
+    "uptime": "99.9% Disponibilitate"
+  },
+  "features": {
+    "badge": "Funcționalități",
+    "title": "Tot Ce Ai Nevoie pentru a",
+    "titleHighlight": "Rămâne Conform",
+    "description": "FleetKeeper oferă instrumente complete pentru a gestiona toate termenele de expirare ale flotei într-un singur loc.",
+    "items": {
+      "tracking": {
+        "title": "Urmărirea Expirărilor",
+        "description": "Urmărește peste 100 de tipuri de expirări pentru vehicule, șoferi și documente ale companiei. Nu pierde niciodată urmărirea termenelor importante."
+      },
+      "notifications": {
+        "title": "Notificări Inteligente",
+        "description": "Primește alerte push și email la intervale personalizabile: 60, 30, 14, 7, 3 și 1 zi înainte de expirare."
+      },
+      "vehicles": {
+        "title": "Managementul Vehiculelor",
+        "description": "Registru complet al vehiculelor cu specificații tehnice, fotografii și toți termenii de expirare legați într-o singură vedere."
+      },
+      "drivers": {
+        "title": "Managementul Șoferilor",
+        "description": "Urmărește permisele de conducere, cardurile CPC, certificările ADR, examenele medicale și calificările profesionale."
+      },
+      "documents": {
+        "title": "Stocarea Documentelor",
+        "description": "Atașează fotografii și scanări ale certificatelor, licențelor și documentelor direct la termenii de expirare."
+      },
+      "roles": {
+        "title": "Acces Bazat pe Roluri",
+        "description": "Roluri de Admin, Manager și Șofer cu permisiuni corespunzătoare. Păstrează datele securizate și organizate."
+      }
+    }
+  },
+  "expirationTypes": {
+    "badge": "Comprehensiv",
+    "title": "Urmărește",
+    "titleHighlight": "Fiecare Expirare",
+    "titleEnd": "Care Contează",
+    "description": "De la inspecțiile vehiculelor la certificările șoferilor, FleetKeeper acoperă toate nevoile tale de conformitate.",
+    "vehicle": {
+      "title": "Termeni Vehicule",
+      "count": "45+ tipuri",
+      "items": ["ITP / Inspecție Tehnică", "Asigurare RCA", "Asigurare CASCO", "Calibrare Tahograf", "Certificat ADR", "Verificare Limitator Viteză", "Stingător Incendiu", "Și încă 38..."]
+    },
+    "driver": {
+      "title": "Termeni Șoferi",
+      "count": "30+ tipuri",
+      "items": ["Permis de Conducere", "Card CPC (Calificare Șofer)", "Licență ADR", "Certificat Medical", "Evaluare Psihologică", "Permis de Muncă", "Contract de Muncă", "Și încă 23..."]
+    },
+    "company": {
+      "title": "Termeni Companie",
+      "count": "25+ tipuri",
+      "items": ["Licență Transport", "Autorizație Funcționare", "Asigurare Răspundere", "Autorizații CEMT", "Certificări ISO", "Contracte Service", "Contracte Leasing", "Și încă 18..."]
+    }
+  },
+  "howItWorks": {
+    "badge": "Simplu",
+    "title": "Începe în",
+    "titleHighlight": "3 Pași Simpli",
+    "description": "Configurează managementul flotei în minute, nu ore. Nu e nevoie de configurare complexă.",
+    "steps": {
+      "download": {
+        "title": "Descarcă și Înregistrează-te",
+        "description": "Obține FleetKeeper din App Store sau Google Play. Creează contul și compania în mai puțin de un minut."
+      },
+      "addFleet": {
+        "title": "Adaugă Flota Ta",
+        "description": "Adaugă vehiculele, șoferii și datele lor de expirare. Atașează documente și setează preferințele de notificare."
+      },
+      "stayNotified": {
+        "title": "Rămâi Notificat",
+        "description": "Primește alerte automate înainte de expirări. Acționează și reînnoiește la timp, de fiecare dată."
+      }
+    }
+  },
+  "pricing": {
+    "badge": "Prețuri",
+    "title": "Prețuri",
+    "titleHighlight": "Simple și Transparente",
+    "description": "Începe gratuit și scalează pe măsură ce flota ta crește. Fără taxe ascunse, anulează oricând.",
+    "popular": "Cel Mai Popular",
+    "perMonth": "/lună",
+    "getStartedFree": "Începe Gratuit",
+    "startFreeTrial": "Începe Perioada de Probă",
+    "contactSales": "Contactează Vânzări",
+    "plans": {
+      "starter": {
+        "name": "Starter",
+        "description": "Perfect pentru flote mici",
+        "price": "€0",
+        "features": ["Până la 5 vehicule", "Până la 3 utilizatori", "Toate tipurile de expirări", "Notificări push", "Stocare documente"]
+      },
+      "professional": {
+        "name": "Profesional",
+        "description": "Pentru afaceri în creștere",
+        "price": "€29",
+        "features": ["Până la 25 vehicule", "Până la 10 utilizatori", "Toate tipurile de expirări", "Notificări push + email", "Suport prioritar", "Rapoarte avansate"]
+      },
+      "business": {
+        "name": "Business",
+        "description": "Pentru flote mari",
+        "price": "€79",
+        "features": ["Până la 100 vehicule", "Până la 25 utilizatori", "Toate tipurile de expirări", "Notificări push + email", "Suport dedicat", "Integrări personalizate"]
+      },
+      "enterprise": {
+        "name": "Enterprise",
+        "description": "Pentru organizații mari",
+        "price": "€199+",
+        "features": ["Vehicule nelimitate", "Utilizatori nelimitați", "Opțiune white-label", "Acces API", "Garanție SLA", "Manager de cont"]
+      }
+    }
+  },
+  "testimonials": {
+    "badge": "Testimoniale",
+    "title": "Iubit de",
+    "titleHighlight": "Managerii de Flotă",
+    "items": [
+      {
+        "text": "FleetKeeper ne-a salvat de o amendă de €500 luna trecută. Am fi ratat termenul ITP fără notificare.",
+        "author": "Mihai C.",
+        "role": "Manager Flotă, 15 vehicule"
+      },
+      {
+        "text": "În sfârșit, toate datele noastre de expirare într-un singur loc. Aplicația mobilă este atât de ușor de folosit, chiar și șoferii mai în vârstă o adoră.",
+        "author": "Anna S.",
+        "role": "Director Operațiuni, 45 vehicule"
+      },
+      {
+        "text": "Sistemul de notificări este exact ceea ce aveam nevoie. Notificările push și emailurile se asigură că nimic nu scapă.",
+        "author": "Piotr K.",
+        "role": "Proprietar, 8 vehicule"
+      }
+    ]
+  },
+  "faq": {
+    "badge": "Întrebări Frecvente",
+    "title": "Întrebări",
+    "titleHighlight": "Frecvente",
+    "items": [
+      {
+        "question": "Ce este FleetKeeper?",
+        "answer": "FleetKeeper este o aplicație mobilă concepută pentru companiile de transport pentru a urmări și gestiona datele de expirare pentru vehicule, șoferi și documente ale companiei. Trimite notificări inteligente înainte de termene pentru a te ajuta să rămâi conform și să eviți amenzile."
+      },
+      {
+        "question": "FleetKeeper este cu adevărat gratuit?",
+        "answer": "Da! Planul nostru Starter este complet gratuit pentru flotele mici cu până la 5 vehicule și 3 utilizatori. Ai acces la toate tipurile de expirări și notificări push. Nu e necesar card de credit."
+      },
+      {
+        "question": "Ce tipuri de expirări pot urmări?",
+        "answer": "FleetKeeper suportă peste 100 de tipuri de expirări inclusiv inspecții vehicule (ITP), asigurări (RCA, CASCO), calibrări tahograf, permise de conducere, carduri CPC, certificate ADR, examene medicale, autorizații companie și multe altele."
+      },
+      {
+        "question": "Cum funcționează notificările?",
+        "answer": "FleetKeeper trimite notificări push și emailuri la intervale configurabile: 60, 30, 14, 7, 3 și 1 zi înainte de expirare, plus mementouri pentru elementele depășite. Poți personaliza ce notificări primești și când."
+      },
+      {
+        "question": "Sunt datele mele în siguranță?",
+        "answer": "Absolut. Folosim criptare de nivel enterprise și arhitectură multi-tenant pentru a ne asigura că datele tale sunt izolate și protejate. Suntem pe deplin conformi GDPR și nu partajăm niciodată datele tale cu terți."
+      },
+      {
+        "question": "Pot folosi FleetKeeper în limba mea?",
+        "answer": "Da! FleetKeeper suportă 12 limbi: engleză, română, maghiară, poloneză, germană, franceză, spaniolă, italiană, portugheză, olandeză, bulgară și cehă. Mai multe limbi vor veni în curând."
+      },
+      {
+        "question": "Pot adăuga membrii echipei mele?",
+        "answer": "Da! FleetKeeper suportă mai multe roluri de utilizator: Admin (acces complet), Manager (gestionare vehicule, șoferi, termeni) și Șofer (vizualizare doar pentru propriile date). Invită membrii echipei direct din aplicație."
+      },
+      {
+        "question": "Pot anula abonamentul oricând?",
+        "answer": "Da, poți anula abonamentul oricând. Nu există contracte pe termen lung sau taxe de anulare. Datele tale rămân accesibile până la sfârșitul perioadei de facturare."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Pregătit să Nu Mai Ratezi Niciodată un Termen?",
+    "description": "Alătură-te miilor de manageri de flotă care au încredere în FleetKeeper pentru a-și menține operațiunile conforme.",
+    "button": "Descarcă Aplicația Gratuită",
+    "note": "Gratuit pentru flote de până la 5 vehicule. Nu e necesar card de credit."
+  },
+  "footer": {
+    "tagline": "Nu rata niciodată un termen.",
+    "product": "Produs",
+    "legal": "Legal",
+    "support": "Suport",
+    "privacyPolicy": "Politica de Confidențialitate",
+    "termsOfService": "Termeni și Condiții",
+    "cookiePolicy": "Politica Cookie",
+    "gdpr": "GDPR",
+    "contactUs": "Contactează-ne",
+    "copyright": "© 2026 FleetKeeper. Toate drepturile rezervate."
+  },
+  "cookie": {
+    "message": "Folosim cookie-uri pentru a îmbunătăți experiența ta. Continuând să folosești acest site, ești de acord cu",
+    "link": "Politica noastră de Cookie",
+    "acceptAll": "Acceptă Tot",
+    "essentialOnly": "Doar Esențiale"
+  },
+  "download": {
+    "title": "Descarcă FleetKeeper",
+    "description": "Obține aplicația pe dispozitivul tău și nu mai rata niciodată un termen.",
+    "detecting": "Se detectează dispozitivul...",
+    "redirectingIos": "Redirecționare către App Store...",
+    "redirectingAndroid": "Redirecționare către Google Play...",
+    "chooseplatform": "Alege platforma ta",
+    "iosComingSoon": "Link App Store iOS în curând",
+    "androidComingSoon": "Link Google Play în curând",
+    "downloadIos": "Descarcă pentru iOS",
+    "downloadAndroid": "Descarcă pentru Android",
+    "notRedirecting": "Nu se redirecționează?",
+    "goBack": "Înapoi la pagina principală"
+  },
+  "app": {
+    "dashboard": "Panou",
+    "expired": "Expirat",
+    "expiringSoon": "Expiră Curând",
+    "valid": "Valid",
+    "days": "zile"
+  }
+}

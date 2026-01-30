@@ -1,0 +1,253 @@
+{
+  "lang": "cs",
+  "langName": "Čeština",
+  "meta": {
+    "title": "FleetKeeper - Nikdy Nezmeškejte Termín | Aplikace pro Správu Expirací Vozového Parku",
+    "description": "FleetKeeper pomáhá dopravním společnostem sledovat technické kontroly, řidičské průkazy, obnovy pojištění a více než 100 typů expirací. Dostávejte chytrá upozornění před termíny. Zdarma pro malé flotily."
+  },
+  "nav": {
+    "features": "Funkce",
+    "howItWorks": "Jak To Funguje",
+    "pricing": "Ceník",
+    "faq": "FAQ",
+    "download": "Stáhnout Aplikaci"
+  },
+  "hero": {
+    "badge": "Nyní k dispozici pro iOS a Android",
+    "title": "Nikdy Víc Nezmeškejte",
+    "titleHighlight": "Termín",
+    "titleEnd": "",
+    "description": "Sledujte technické kontroly, řidičské průkazy, obnovy pojištění a více než 100 typů expirací. Dostávejte chytrá upozornění před termíny. Zůstaňte v souladu, vyhněte se pokutám.",
+    "downloadFree": "Stáhnout Zdarma",
+    "seeHowItWorks": "Podívejte se Jak To Funguje",
+    "stats": {
+      "expirationTypes": "Typů Expirací",
+      "languages": "Jazyků",
+      "freeForSmallFleets": "Pro Malé Flotily"
+    }
+  },
+  "trust": {
+    "text": "Důvěryhodné pro dopravní společnosti po celé Evropě",
+    "gdpr": "GDPR Kompatibilní",
+    "secure": "Bezpečná Data",
+    "languages": "12 Jazyků",
+    "uptime": "99.9% Dostupnost"
+  },
+  "features": {
+    "badge": "Funkce",
+    "title": "Vše Co Potřebujete pro",
+    "titleHighlight": "Udržení Souladu",
+    "description": "FleetKeeper poskytuje komplexní nástroje pro správu všech dat expirace vaší flotily na jednom místě.",
+    "items": {
+      "tracking": {
+        "title": "Sledování Expirací",
+        "description": "Sledujte více než 100 typů expirací pro vozidla, řidiče a firemní dokumenty. Nikdy neztraťte přehled o důležitých termínech."
+      },
+      "notifications": {
+        "title": "Chytrá Upozornění",
+        "description": "Dostávejte push a e-mailová upozornění v nastavitelných intervalech: 60, 30, 14, 7, 3 a 1 den před expirací."
+      },
+      "vehicles": {
+        "title": "Správa Vozidel",
+        "description": "Kompletní registr vozidel s technickými specifikacemi, fotografiemi a všemi propojenými termíny expirace v jednom zobrazení."
+      },
+      "drivers": {
+        "title": "Správa Řidičů",
+        "description": "Sledujte řidičské průkazy, karty řidiče, ADR certifikáty, lékařské prohlídky a profesní kvalifikace."
+      },
+      "documents": {
+        "title": "Úložiště Dokumentů",
+        "description": "Připojujte fotografie a skeny certifikátů, licencí a dokumentů přímo k termínům expirace."
+      },
+      "roles": {
+        "title": "Přístup Založený na Rolích",
+        "description": "Role Admin, Manager a Řidič s příslušnými oprávněními. Udržujte svá data bezpečná a organizovaná."
+      }
+    }
+  },
+  "expirationTypes": {
+    "badge": "Komplexní",
+    "title": "Sledujte",
+    "titleHighlight": "Každou Expiraci",
+    "titleEnd": "Která Má Význam",
+    "description": "Od technických kontrol po certifikace řidičů, FleetKeeper pokrývá všechny vaše potřeby dodržování předpisů.",
+    "vehicle": {
+      "title": "Termíny Vozidel",
+      "count": "45+ typů",
+      "items": ["STK / Technická Kontrola", "Povinné Ručení", "Havarijní Pojištění", "Kalibrace Tachografu", "ADR Certifikát", "Kontrola Omezovače Rychlosti", "Hasicí Přístroj", "A dalších 38..."]
+    },
+    "driver": {
+      "title": "Termíny Řidičů",
+      "count": "30+ typů",
+      "items": ["Řidičský Průkaz", "Karta Řidiče (CPC)", "ADR Osvědčení", "Lékařské Potvrzení", "Psychologické Vyšetření", "Pracovní Povolení", "Pracovní Smlouva", "A dalších 23..."]
+    },
+    "company": {
+      "title": "Firemní Termíny",
+      "count": "25+ typů",
+      "items": ["Dopravní Licence", "Provozní Povolení", "Pojištění Odpovědnosti", "CEMT Povolení", "ISO Certifikace", "Servisní Smlouvy", "Leasingové Smlouvy", "A dalších 18..."]
+    }
+  },
+  "howItWorks": {
+    "badge": "Jednoduché",
+    "title": "Začněte ve",
+    "titleHighlight": "3 Jednoduchých Krocích",
+    "description": "Nastavte správu flotily během minut, ne hodin. Není potřeba složitá konfigurace.",
+    "steps": {
+      "download": {
+        "title": "Stáhněte a Zaregistrujte se",
+        "description": "Získejte FleetKeeper z App Store nebo Google Play. Vytvořte účet a firmu za méně než minutu."
+      },
+      "addFleet": {
+        "title": "Přidejte Svou Flotilu",
+        "description": "Přidejte svá vozidla, řidiče a jejich data expirace. Připojte dokumenty a nastavte preference upozornění."
+      },
+      "stayNotified": {
+        "title": "Zůstaňte Informováni",
+        "description": "Dostávejte automatická upozornění před expiracemi. Jednejte a obnovujte včas, pokaždé."
+      }
+    }
+  },
+  "pricing": {
+    "badge": "Ceník",
+    "title": "Jednoduchý,",
+    "titleHighlight": "Transparentní Ceník",
+    "description": "Začněte zdarma a škálujte s růstem flotily. Žádné skryté poplatky, zrušte kdykoliv.",
+    "popular": "Nejoblíbenější",
+    "perMonth": "/měsíc",
+    "getStartedFree": "Začít Zdarma",
+    "startFreeTrial": "Začít Zkušební Období",
+    "contactSales": "Kontaktovat Prodej",
+    "plans": {
+      "starter": {
+        "name": "Starter",
+        "description": "Ideální pro malé flotily",
+        "price": "€0",
+        "features": ["Až 5 vozidel", "Až 3 uživatelé", "Všechny typy expirací", "Push upozornění", "Úložiště dokumentů"]
+      },
+      "professional": {
+        "name": "Professional",
+        "description": "Pro rostoucí firmy",
+        "price": "€29",
+        "features": ["Až 25 vozidel", "Až 10 uživatelů", "Všechny typy expirací", "Push + e-mail upozornění", "Prioritní podpora", "Pokročilé reporty"]
+      },
+      "business": {
+        "name": "Business",
+        "description": "Pro větší flotily",
+        "price": "€79",
+        "features": ["Až 100 vozidel", "Až 25 uživatelů", "Všechny typy expirací", "Push + e-mail upozornění", "Vyhrazená podpora", "Vlastní integrace"]
+      },
+      "enterprise": {
+        "name": "Enterprise",
+        "description": "Pro velké organizace",
+        "price": "€199+",
+        "features": ["Neomezená vozidla", "Neomezení uživatelé", "White-label možnost", "API přístup", "SLA garance", "Account manager"]
+      }
+    }
+  },
+  "testimonials": {
+    "badge": "Reference",
+    "title": "Oblíbeno",
+    "titleHighlight": "Správci Flotil",
+    "items": [
+      {
+        "text": "FleetKeeper nás minulý měsíc zachránil od pokuty €500. Bez upozornění bychom zmeškali termín STK.",
+        "author": "Mihai C.",
+        "role": "Správce Flotily, 15 vozidel"
+      },
+      {
+        "text": "Konečně všechna naše data expirace na jednom místě. Mobilní aplikace je tak snadná na používání, že ji milují i naši starší řidiči.",
+        "author": "Anna S.",
+        "role": "Provozní Ředitelka, 45 vozidel"
+      },
+      {
+        "text": "Systém upozornění je přesně to, co jsme potřebovali. Push upozornění a e-maily zajišťují, že nic neproklouze.",
+        "author": "Piotr K.",
+        "role": "Vlastník, 8 vozidel"
+      }
+    ]
+  },
+  "faq": {
+    "badge": "FAQ",
+    "title": "Často Kladené",
+    "titleHighlight": "Dotazy",
+    "items": [
+      {
+        "question": "Co je FleetKeeper?",
+        "answer": "FleetKeeper je mobilní aplikace určená pro dopravní společnosti ke sledování a správě dat expirace vozidel, řidičů a firemních dokumentů. Posílá chytrá upozornění před termíny, aby vám pomohla zůstat v souladu a vyhnout se pokutám."
+      },
+      {
+        "question": "Je FleetKeeper opravdu zdarma?",
+        "answer": "Ano! Náš Starter plán je zcela zdarma pro malé flotily s až 5 vozidly a 3 uživateli. Získáte přístup ke všem typům expirací a push upozorněním. Není vyžadována kreditní karta."
+      },
+      {
+        "question": "Jaké typy expirací mohu sledovat?",
+        "answer": "FleetKeeper podporuje více než 100 typů expirací včetně technických kontrol (STK), pojištění (povinné ručení, havarijní), kalibrací tachografu, řidičských průkazů, karet řidiče, ADR certifikátů, lékařských prohlídek, firemních povolení a mnoho dalšího."
+      },
+      {
+        "question": "Jak fungují upozornění?",
+        "answer": "FleetKeeper posílá push upozornění a e-maily v nastavitelných intervalech: 60, 30, 14, 7, 3 a 1 den před expirací, plus připomínky pro prošlé položky. Můžete si přizpůsobit, která upozornění dostáváte a kdy."
+      },
+      {
+        "question": "Jsou moje data v bezpečí?",
+        "answer": "Rozhodně. Používáme podnikové šifrování a multi-tenant architekturu k zajištění, že vaše data jsou izolována a chráněna. Jsme plně GDPR kompatibilní a nikdy nesdílíme vaše data s třetími stranami."
+      },
+      {
+        "question": "Mohu používat FleetKeeper ve svém jazyce?",
+        "answer": "Ano! FleetKeeper podporuje 12 jazyků: angličtina, rumunština, maďarština, polština, němčina, francouzština, španělština, italština, portugalština, holandština, bulharština a čeština. Další jazyky brzy."
+      },
+      {
+        "question": "Mohu přidat členy svého týmu?",
+        "answer": "Ano! FleetKeeper podporuje více uživatelských rolí: Admin (plný přístup), Manager (správa vozidel, řidičů, termínů) a Řidič (pouze zobrazení vlastních dat). Pozvěte členy týmu přímo z aplikace."
+      },
+      {
+        "question": "Mohu zrušit předplatné kdykoliv?",
+        "answer": "Ano, můžete zrušit předplatné kdykoliv. Nejsou žádné dlouhodobé smlouvy ani poplatky za zrušení. Vaše data zůstávají přístupná do konce fakturačního období."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Připraveni Nikdy Víc Nezmeškat Termín?",
+    "description": "Připojte se k tisícům správců flotil, kteří důvěřují FleetKeeper pro udržení jejich operací v souladu.",
+    "button": "Stáhnout Aplikaci Zdarma",
+    "note": "Zdarma pro flotily do 5 vozidel. Není vyžadována kreditní karta."
+  },
+  "footer": {
+    "tagline": "Nikdy nezmeškejte termín.",
+    "product": "Produkt",
+    "legal": "Právní",
+    "support": "Podpora",
+    "privacyPolicy": "Ochrana Soukromí",
+    "termsOfService": "Podmínky Služby",
+    "cookiePolicy": "Zásady Cookies",
+    "gdpr": "GDPR",
+    "contactUs": "Kontakt",
+    "copyright": "© 2026 FleetKeeper. Všechna práva vyhrazena."
+  },
+  "cookie": {
+    "message": "Používáme cookies ke zlepšení vašeho zážitku. Pokračováním v používání tohoto webu souhlasíte s našimi",
+    "link": "Zásadami Cookies",
+    "acceptAll": "Přijmout Vše",
+    "essentialOnly": "Pouze Nezbytné"
+  },
+  "download": {
+    "title": "Stáhnout FleetKeeper",
+    "description": "Získejte aplikaci na své zařízení a nikdy víc nezmeškejte termín.",
+    "detecting": "Detekce vašeho zařízení...",
+    "redirectingIos": "Přesměrování do App Store...",
+    "redirectingAndroid": "Přesměrování do Google Play...",
+    "chooseplatform": "Vyberte svou platformu",
+    "iosComingSoon": "App Store odkaz brzy",
+    "androidComingSoon": "Google Play odkaz brzy",
+    "downloadIos": "Stáhnout pro iOS",
+    "downloadAndroid": "Stáhnout pro Android",
+    "notRedirecting": "Nepřesměrovává?",
+    "goBack": "Zpět na domovskou stránku"
+  },
+  "app": {
+    "dashboard": "Panel",
+    "expired": "Prošlé",
+    "expiringSoon": "Brzy Vyprší",
+    "valid": "Platné",
+    "days": "dní"
+  }
+}

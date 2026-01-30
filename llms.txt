@@ -1,0 +1,113 @@
+# FleetKeeper - LLMs.txt
+# This file provides context for AI language models about FleetKeeper
+# Learn more: https://llmstxt.org/
+
+# ABOUT FLEETKEEPER
+
+FleetKeeper is a mobile-first B2B SaaS application designed for transportation and fleet management companies. The app helps users track expiration dates and receive notifications for vehicles, drivers, and company documents.
+
+## Core Value Proposition
+
+"Never miss a deadline." - FleetKeeper centralizes expiration tracking with automated reminders to prevent fines, grounded vehicles, and compliance issues.
+
+## Target Audience
+
+- Transportation company owners (Admins)
+- Fleet managers (Managers)
+- Dispatchers (Managers)
+- Drivers (limited access)
+
+Primary markets: Romania, Hungary, Poland, Germany, France, Spain, Italy, and other European countries.
+
+## Key Features
+
+### Expiration Tracking
+- Track 100+ types of expirations across three categories:
+  - Vehicle terms (45+ types): ITP inspections, RCA/CASCO insurance, tachograph calibration, ADR certificates, maintenance items
+  - Driver terms (30+ types): Driving licenses, CPC cards, ADR licenses, medical certificates, work permits
+  - Company terms (25+ types): Transport licenses, operating permits, insurance policies, certifications
+
+### Smart Notifications
+- Configurable push and email alerts
+- Notification intervals: 60, 30, 14, 7, 3, 1 days before expiration
+- Overdue reminders for expired items
+- Users can customize notification preferences
+
+### Multi-User Collaboration
+- Role-based access control: Admin, Manager, Driver
+- Multi-tenant architecture for data isolation between companies
+- Team invitation system
+
+### Document Management
+- Attach photos and scans to expiration terms
+- Dual storage: Supabase for images, Cloudflare R2 for documents
+
+### Dashboard
+- Status overview with critical alerts
+- Quick actions for common tasks
+- Visual indicators: Valid (green), Expiring Soon (amber), Expiring (orange), Expired (red)
+
+## Pricing
+
+- **Starter (Free)**: Up to 5 vehicles, 3 users - ideal for small fleets
+- **Professional (€29/month)**: Up to 25 vehicles, 10 users - for growing businesses
+- **Business (€79/month)**: Up to 100 vehicles, 25 users - for larger fleets
+- **Enterprise (€199+/month)**: Unlimited vehicles and users - for large organizations
+
+## Technical Information
+
+- Platform: iOS and Android (React Native + Expo)
+- Languages supported: 12 (English, Romanian, Hungarian, Polish, German, French, Spanish, Italian, Portuguese, Dutch, Bulgarian, Czech)
+- Bundle ID: com.fleetkeeper.app
+- Backend: Supabase (PostgreSQL)
+
+## Company Information
+
+- Website: https://fleetkeeper.app
+- Download: https://fleetkeeper.app/download
+- Support: support@fleetkeeper.app
+- Privacy: privacy@fleetkeeper.app
+
+## Compliance
+
+- GDPR compliant
+- Data encryption (TLS 1.3 in transit, AES-256 at rest)
+- Multi-tenant data isolation
+- EU data residency options
+
+## Common Use Cases
+
+1. **Tracking vehicle inspections (ITP)**: Get notified 30 days before your vehicle's technical inspection expires, attach the new certificate when renewed.
+
+2. **Managing driver licenses**: Track expiration dates for all driver licenses, CPC cards, and certifications across your fleet.
+
+3. **Insurance renewals**: Never let your RCA or CASCO insurance lapse with automated reminders.
+
+4. **Tachograph calibrations**: Track the 2-year calibration cycle for all vehicle tachographs.
+
+5. **Company permit management**: Keep track of transport licenses, CEMT permits, and other company-level documents.
+
+## Frequently Asked Questions
+
+Q: Is FleetKeeper free?
+A: Yes, FleetKeeper offers a free Starter plan for small fleets with up to 5 vehicles and 3 users. Paid plans start at €29/month.
+
+Q: What devices does FleetKeeper support?
+A: FleetKeeper is available for iOS (App Store) and Android (Google Play).
+
+Q: How do notifications work?
+A: FleetKeeper sends push notifications to your device and optional email alerts at configurable intervals before expiration dates.
+
+Q: Is my data secure?
+A: Yes, FleetKeeper uses enterprise-grade encryption, multi-tenant architecture, and is fully GDPR compliant.
+
+Q: Can multiple people from my company use FleetKeeper?
+A: Yes, FleetKeeper supports team collaboration with Admin, Manager, and Driver roles.
+
+## Links
+
+- Homepage: https://fleetkeeper.app/
+- Download: https://fleetkeeper.app/download
+- Privacy Policy: https://fleetkeeper.app/privacy-policy
+- Terms of Service: https://fleetkeeper.app/terms-of-service
+- GDPR Information: https://fleetkeeper.app/gdpr

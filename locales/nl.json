@@ -1,0 +1,253 @@
+{
+  "lang": "nl",
+  "langName": "Nederlands",
+  "meta": {
+    "title": "FleetKeeper - Mis Nooit een Deadline | Vloot Vervaldata Beheer App",
+    "description": "FleetKeeper helpt transportbedrijven voertuigkeuringen, rijbewijzen, verzekeringsverlengingen en meer dan 100 vervaltypen te volgen. Ontvang slimme meldingen voor deadlines. Gratis voor kleine vloten."
+  },
+  "nav": {
+    "features": "Functies",
+    "howItWorks": "Hoe Het Werkt",
+    "pricing": "Prijzen",
+    "faq": "FAQ",
+    "download": "Download App"
+  },
+  "hero": {
+    "badge": "Nu beschikbaar voor iOS en Android",
+    "title": "Mis Nooit Meer een",
+    "titleHighlight": "Deadline",
+    "titleEnd": "",
+    "description": "Volg voertuigkeuringen, rijbewijzen, verzekeringsverlengingen en meer dan 100 vervaltypen. Ontvang slimme meldingen voor deadlines. Blijf compliant, vermijd boetes.",
+    "downloadFree": "Gratis Downloaden",
+    "seeHowItWorks": "Bekijk Hoe Het Werkt",
+    "stats": {
+      "expirationTypes": "Vervaltypen",
+      "languages": "Talen",
+      "freeForSmallFleets": "Voor Kleine Vloten"
+    }
+  },
+  "trust": {
+    "text": "Vertrouwd door transportbedrijven in heel Europa",
+    "gdpr": "AVG Compliant",
+    "secure": "Veilige Data",
+    "languages": "12 Talen",
+    "uptime": "99.9% Uptime"
+  },
+  "features": {
+    "badge": "Functies",
+    "title": "Alles Wat Je Nodig Hebt om",
+    "titleHighlight": "Compliant te Blijven",
+    "description": "FleetKeeper biedt uitgebreide tools om alle vervaldata van je vloot op één plek te beheren.",
+    "items": {
+      "tracking": {
+        "title": "Vervaldata Tracking",
+        "description": "Volg meer dan 100 typen vervaldata voor voertuigen, chauffeurs en bedrijfsdocumenten. Verlies nooit belangrijke deadlines uit het oog."
+      },
+      "notifications": {
+        "title": "Slimme Meldingen",
+        "description": "Ontvang push- en e-mailmeldingen op aanpasbare intervallen: 60, 30, 14, 7, 3 en 1 dag voor vervaldatum."
+      },
+      "vehicles": {
+        "title": "Voertuigbeheer",
+        "description": "Compleet voertuigregister met technische specificaties, foto's en alle gekoppelde vervaltermijnen in één overzicht."
+      },
+      "drivers": {
+        "title": "Chauffeurbeheer",
+        "description": "Volg rijbewijzen, bestuurderskaarten, ADR-certificeringen, medische keuringen en vakbekwaamheid."
+      },
+      "documents": {
+        "title": "Documentopslag",
+        "description": "Voeg foto's en scans van certificaten, licenties en documenten direct toe aan vervaltermijnen."
+      },
+      "roles": {
+        "title": "Rolgebaseerde Toegang",
+        "description": "Admin, Manager en Chauffeur rollen met passende rechten. Houd je data veilig en georganiseerd."
+      }
+    }
+  },
+  "expirationTypes": {
+    "badge": "Uitgebreid",
+    "title": "Volg",
+    "titleHighlight": "Elke Vervaldatum",
+    "titleEnd": "Die Telt",
+    "description": "Van voertuigkeuringen tot chauffeurscertificeringen, FleetKeeper dekt al je compliance-behoeften.",
+    "vehicle": {
+      "title": "Voertuigtermijnen",
+      "count": "45+ typen",
+      "items": ["APK Keuring", "WA Verzekering", "Casco Verzekering", "Tachograafkalibratie", "ADR Certificaat", "Snelheidsbegrenzer Check", "Brandblusser", "En 38 meer..."]
+    },
+    "driver": {
+      "title": "Chauffeurtermijnen",
+      "count": "30+ typen",
+      "items": ["Rijbewijs", "Bestuurderskaart (CCV)", "ADR Certificaat", "Medisch Certificaat", "Psychologische Evaluatie", "Werkvergunning", "Arbeidsovereenkomst", "En 23 meer..."]
+    },
+    "company": {
+      "title": "Bedrijfstermijnen",
+      "count": "25+ typen",
+      "items": ["Transportvergunning", "Exploitatievergunning", "Aansprakelijkheidsverzekering", "CEMT Vergunningen", "ISO Certificeringen", "Servicecontracten", "Leasecontracten", "En 18 meer..."]
+    }
+  },
+  "howItWorks": {
+    "badge": "Eenvoudig",
+    "title": "Start in",
+    "titleHighlight": "3 Eenvoudige Stappen",
+    "description": "Configureer je vlootbeheer in minuten, niet uren. Geen complexe configuratie nodig.",
+    "steps": {
+      "download": {
+        "title": "Download en Registreer",
+        "description": "Download FleetKeeper uit de App Store of Google Play. Maak je account en bedrijf aan in minder dan een minuut."
+      },
+      "addFleet": {
+        "title": "Voeg Je Vloot Toe",
+        "description": "Voeg je voertuigen, chauffeurs en hun vervaldata toe. Voeg documenten toe en stel meldingsvoorkeuren in."
+      },
+      "stayNotified": {
+        "title": "Blijf Op de Hoogte",
+        "description": "Ontvang automatische meldingen voor vervaldata. Handel en verleng op tijd, elke keer."
+      }
+    }
+  },
+  "pricing": {
+    "badge": "Prijzen",
+    "title": "Eenvoudige,",
+    "titleHighlight": "Transparante Prijzen",
+    "description": "Start gratis en schaal mee met je vloot. Geen verborgen kosten, opzeggen wanneer je wilt.",
+    "popular": "Meest Populair",
+    "perMonth": "/maand",
+    "getStartedFree": "Start Gratis",
+    "startFreeTrial": "Start Gratis Proef",
+    "contactSales": "Contact Sales",
+    "plans": {
+      "starter": {
+        "name": "Starter",
+        "description": "Perfect voor kleine vloten",
+        "price": "€0",
+        "features": ["Tot 5 voertuigen", "Tot 3 gebruikers", "Alle vervaltypen", "Push meldingen", "Documentopslag"]
+      },
+      "professional": {
+        "name": "Professional",
+        "description": "Voor groeiende bedrijven",
+        "price": "€29",
+        "features": ["Tot 25 voertuigen", "Tot 10 gebruikers", "Alle vervaltypen", "Push + e-mail meldingen", "Prioriteit support", "Geavanceerde rapporten"]
+      },
+      "business": {
+        "name": "Business",
+        "description": "Voor grotere vloten",
+        "price": "€79",
+        "features": ["Tot 100 voertuigen", "Tot 25 gebruikers", "Alle vervaltypen", "Push + e-mail meldingen", "Dedicated support", "Aangepaste integraties"]
+      },
+      "enterprise": {
+        "name": "Enterprise",
+        "description": "Voor grote organisaties",
+        "price": "€199+",
+        "features": ["Onbeperkt voertuigen", "Onbeperkt gebruikers", "White-label optie", "API toegang", "SLA garantie", "Account manager"]
+      }
+    }
+  },
+  "testimonials": {
+    "badge": "Testimonials",
+    "title": "Geliefd door",
+    "titleHighlight": "Vlootbeheerders",
+    "items": [
+      {
+        "text": "FleetKeeper heeft ons vorige maand van een €500 boete gered. We hadden onze APK deadline gemist zonder de melding.",
+        "author": "Mihai C.",
+        "role": "Vlootbeheerder, 15 voertuigen"
+      },
+      {
+        "text": "Eindelijk al onze vervaldata op één plek. De mobiele app is zo makkelijk te gebruiken dat zelfs onze oudere chauffeurs het geweldig vinden.",
+        "author": "Anna S.",
+        "role": "Operations Director, 45 voertuigen"
+      },
+      {
+        "text": "Het meldingensysteem is precies wat we nodig hadden. Push meldingen en e-mails zorgen ervoor dat niets door de mazen glipt.",
+        "author": "Piotr K.",
+        "role": "Eigenaar, 8 voertuigen"
+      }
+    ]
+  },
+  "faq": {
+    "badge": "FAQ",
+    "title": "Veelgestelde",
+    "titleHighlight": "Vragen",
+    "items": [
+      {
+        "question": "Wat is FleetKeeper?",
+        "answer": "FleetKeeper is een mobiele app ontworpen voor transportbedrijven om vervaldata van voertuigen, chauffeurs en bedrijfsdocumenten te volgen en beheren. Het stuurt slimme meldingen voor deadlines om je te helpen compliant te blijven en boetes te vermijden."
+      },
+      {
+        "question": "Is FleetKeeper echt gratis?",
+        "answer": "Ja! Ons Starter plan is volledig gratis voor kleine vloten met tot 5 voertuigen en 3 gebruikers. Je krijgt toegang tot alle vervaltypen en push meldingen. Geen creditcard vereist."
+      },
+      {
+        "question": "Welke typen vervaldata kan ik volgen?",
+        "answer": "FleetKeeper ondersteunt meer dan 100 vervaltypen inclusief voertuigkeuringen (APK), verzekeringen (WA, casco), tachograafkalibraties, rijbewijzen, bestuurderskaarten, ADR certificaten, medische keuringen, bedrijfsvergunningen en veel meer."
+      },
+      {
+        "question": "Hoe werken de meldingen?",
+        "answer": "FleetKeeper stuurt push meldingen en e-mails op instelbare intervallen: 60, 30, 14, 7, 3 en 1 dag voor vervaldatum, plus herinneringen voor verlopen items. Je kunt aanpassen welke meldingen je ontvangt en wanneer."
+      },
+      {
+        "question": "Zijn mijn gegevens veilig?",
+        "answer": "Absoluut. We gebruiken enterprise-grade encryptie en multi-tenant architectuur om ervoor te zorgen dat je data geïsoleerd en beschermd is. We zijn volledig AVG compliant en delen je data nooit met derden."
+      },
+      {
+        "question": "Kan ik FleetKeeper in mijn taal gebruiken?",
+        "answer": "Ja! FleetKeeper ondersteunt 12 talen: Engels, Roemeens, Hongaars, Pools, Duits, Frans, Spaans, Italiaans, Portugees, Nederlands, Bulgaars en Tsjechisch. Meer talen komen binnenkort."
+      },
+      {
+        "question": "Kan ik mijn teamleden toevoegen?",
+        "answer": "Ja! FleetKeeper ondersteunt meerdere gebruikersrollen: Admin (volledige toegang), Manager (beheer voertuigen, chauffeurs, termijnen) en Chauffeur (alleen inzage van eigen data). Nodig teamleden direct uit vanuit de app."
+      },
+      {
+        "question": "Kan ik mijn abonnement op elk moment opzeggen?",
+        "answer": "Ja, je kunt je abonnement op elk moment opzeggen. Er zijn geen langetermijncontracten of opzegkosten. Je data blijft toegankelijk tot het einde van de factureringsperiode."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Klaar om Nooit Meer een Deadline te Missen?",
+    "description": "Sluit je aan bij duizenden vlootbeheerders die FleetKeeper vertrouwen om hun operaties compliant te houden.",
+    "button": "Download Gratis App",
+    "note": "Gratis voor vloten tot 5 voertuigen. Geen creditcard vereist."
+  },
+  "footer": {
+    "tagline": "Mis nooit een deadline.",
+    "product": "Product",
+    "legal": "Juridisch",
+    "support": "Support",
+    "privacyPolicy": "Privacybeleid",
+    "termsOfService": "Servicevoorwaarden",
+    "cookiePolicy": "Cookiebeleid",
+    "gdpr": "AVG",
+    "contactUs": "Contact",
+    "copyright": "© 2026 FleetKeeper. Alle rechten voorbehouden."
+  },
+  "cookie": {
+    "message": "We gebruiken cookies om je ervaring te verbeteren. Door deze site te blijven gebruiken, ga je akkoord met ons",
+    "link": "Cookiebeleid",
+    "acceptAll": "Alles Accepteren",
+    "essentialOnly": "Alleen Essentieel"
+  },
+  "download": {
+    "title": "Download FleetKeeper",
+    "description": "Download de app op je apparaat en mis nooit meer een deadline.",
+    "detecting": "Je apparaat detecteren...",
+    "redirectingIos": "Doorsturen naar App Store...",
+    "redirectingAndroid": "Doorsturen naar Google Play...",
+    "chooseplatform": "Kies je platform",
+    "iosComingSoon": "App Store link binnenkort",
+    "androidComingSoon": "Google Play link binnenkort",
+    "downloadIos": "Download voor iOS",
+    "downloadAndroid": "Download voor Android",
+    "notRedirecting": "Geen doorverwijzing?",
+    "goBack": "Terug naar home"
+  },
+  "app": {
+    "dashboard": "Dashboard",
+    "expired": "Verlopen",
+    "expiringSoon": "Verloopt Binnenkort",
+    "valid": "Geldig",
+    "days": "dagen"
+  }
+}

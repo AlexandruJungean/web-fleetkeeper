@@ -1,0 +1,15 @@
+/* TEAM */
+Product: FleetKeeper
+Website: https://fleetkeeper.app
+Contact: support@fleetkeeper.app
+
+/* THANKS */
+Built with love for the transportation industry.
+
+/* SITE */
+Last update: 2026/01/30
+Language: English
+Doctype: HTML5
+Standards: HTML5, CSS3, ES6+
+Components: Inter Font (Google Fonts)
+Software: Visual Studio Code, Cursor IDE

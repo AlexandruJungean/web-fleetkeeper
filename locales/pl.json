@@ -1,0 +1,253 @@
+{
+  "lang": "pl",
+  "langName": "Polski",
+  "meta": {
+    "title": "FleetKeeper - Nigdy Nie Przegap Terminu | Aplikacja do Zarządzania Wygasającymi Dokumentami Floty",
+    "description": "FleetKeeper pomaga firmom transportowym śledzić przeglądy pojazdów, prawa jazdy, odnowienia ubezpieczeń i ponad 100 typów terminów. Otrzymuj inteligentne powiadomienia przed terminami. Bezpłatnie dla małych flot."
+  },
+  "nav": {
+    "features": "Funkcje",
+    "howItWorks": "Jak To Działa",
+    "pricing": "Cennik",
+    "faq": "FAQ",
+    "download": "Pobierz Aplikację"
+  },
+  "hero": {
+    "badge": "Teraz dostępne na iOS i Android",
+    "title": "Nigdy Więcej Nie Przegap",
+    "titleHighlight": "Terminu",
+    "titleEnd": "",
+    "description": "Śledź przeglądy pojazdów, prawa jazdy, odnowienia ubezpieczeń i ponad 100 typów terminów. Otrzymuj inteligentne powiadomienia przed terminami. Bądź zgodny, unikaj kar.",
+    "downloadFree": "Pobierz Za Darmo",
+    "seeHowItWorks": "Zobacz Jak To Działa",
+    "stats": {
+      "expirationTypes": "Typów Terminów",
+      "languages": "Języków",
+      "freeForSmallFleets": "Dla Małych Flot"
+    }
+  },
+  "trust": {
+    "text": "Zaufane przez firmy transportowe w całej Europie",
+    "gdpr": "Zgodność z RODO",
+    "secure": "Bezpieczne Dane",
+    "languages": "12 Języków",
+    "uptime": "99.9% Dostępności"
+  },
+  "features": {
+    "badge": "Funkcje",
+    "title": "Wszystko Czego Potrzebujesz Aby",
+    "titleHighlight": "Zachować Zgodność",
+    "description": "FleetKeeper zapewnia kompleksowe narzędzia do zarządzania wszystkimi terminami wygaśnięcia floty w jednym miejscu.",
+    "items": {
+      "tracking": {
+        "title": "Śledzenie Terminów",
+        "description": "Śledź ponad 100 typów terminów dla pojazdów, kierowców i dokumentów firmowych. Nigdy nie trać z oczu ważnych terminów."
+      },
+      "notifications": {
+        "title": "Inteligentne Powiadomienia",
+        "description": "Otrzymuj powiadomienia push i e-mail w konfigurowalnych odstępach: 60, 30, 14, 7, 3 i 1 dzień przed wygaśnięciem."
+      },
+      "vehicles": {
+        "title": "Zarządzanie Pojazdami",
+        "description": "Kompletny rejestr pojazdów z danymi technicznymi, zdjęciami i wszystkimi powiązanymi terminami w jednym widoku."
+      },
+      "drivers": {
+        "title": "Zarządzanie Kierowcami",
+        "description": "Śledź prawa jazdy, karty kierowcy, certyfikaty ADR, badania lekarskie i kwalifikacje zawodowe."
+      },
+      "documents": {
+        "title": "Przechowywanie Dokumentów",
+        "description": "Dołączaj zdjęcia i skany certyfikatów, licencji i dokumentów bezpośrednio do terminów wygaśnięcia."
+      },
+      "roles": {
+        "title": "Dostęp Oparty na Rolach",
+        "description": "Role Admin, Manager i Kierowca z odpowiednimi uprawnieniami. Trzymaj dane bezpieczne i zorganizowane."
+      }
+    }
+  },
+  "expirationTypes": {
+    "badge": "Kompleksowe",
+    "title": "Śledź",
+    "titleHighlight": "Każdy Termin",
+    "titleEnd": "Który Ma Znaczenie",
+    "description": "Od przeglądów pojazdów po certyfikaty kierowców, FleetKeeper pokrywa wszystkie Twoje potrzeby zgodności.",
+    "vehicle": {
+      "title": "Terminy Pojazdów",
+      "count": "45+ typów",
+      "items": ["Przegląd Techniczny", "Ubezpieczenie OC", "Ubezpieczenie AC", "Kalibracja Tachografu", "Certyfikat ADR", "Kontrola Ogranicznika Prędkości", "Gaśnica", "I 38 więcej..."]
+    },
+    "driver": {
+      "title": "Terminy Kierowców",
+      "count": "30+ typów",
+      "items": ["Prawo Jazdy", "Karta Kierowcy (Kwalifikacja)", "Licencja ADR", "Zaświadczenie Lekarskie", "Ocena Psychologiczna", "Pozwolenie na Pracę", "Umowa o Pracę", "I 23 więcej..."]
+    },
+    "company": {
+      "title": "Terminy Firmowe",
+      "count": "25+ typów",
+      "items": ["Licencja Transportowa", "Zezwolenie na Działalność", "Ubezpieczenie OC Działalności", "Zezwolenia CEMT", "Certyfikaty ISO", "Umowy Serwisowe", "Umowy Leasingowe", "I 18 więcej..."]
+    }
+  },
+  "howItWorks": {
+    "badge": "Proste",
+    "title": "Zacznij w",
+    "titleHighlight": "3 Prostych Krokach",
+    "description": "Skonfiguruj zarządzanie flotą w minuty, nie godziny. Bez skomplikowanej konfiguracji.",
+    "steps": {
+      "download": {
+        "title": "Pobierz i Zarejestruj się",
+        "description": "Pobierz FleetKeeper z App Store lub Google Play. Utwórz konto i firmę w mniej niż minutę."
+      },
+      "addFleet": {
+        "title": "Dodaj Swoją Flotę",
+        "description": "Dodaj swoje pojazdy, kierowców i ich terminy wygaśnięcia. Dołącz dokumenty i ustaw preferencje powiadomień."
+      },
+      "stayNotified": {
+        "title": "Bądź Na Bieżąco",
+        "description": "Otrzymuj automatyczne alerty przed wygaśnięciami. Działaj i odnawiaj na czas, za każdym razem."
+      }
+    }
+  },
+  "pricing": {
+    "badge": "Cennik",
+    "title": "Proste,",
+    "titleHighlight": "Przejrzyste Ceny",
+    "description": "Zacznij za darmo i skaluj wraz ze wzrostem floty. Bez ukrytych opłat, anuluj kiedy chcesz.",
+    "popular": "Najpopularniejszy",
+    "perMonth": "/miesiąc",
+    "getStartedFree": "Zacznij Za Darmo",
+    "startFreeTrial": "Rozpocznij Okres Próbny",
+    "contactSales": "Skontaktuj się ze Sprzedażą",
+    "plans": {
+      "starter": {
+        "name": "Starter",
+        "description": "Idealny dla małych flot",
+        "price": "€0",
+        "features": ["Do 5 pojazdów", "Do 3 użytkowników", "Wszystkie typy terminów", "Powiadomienia push", "Przechowywanie dokumentów"]
+      },
+      "professional": {
+        "name": "Professional",
+        "description": "Dla rozwijających się firm",
+        "price": "€29",
+        "features": ["Do 25 pojazdów", "Do 10 użytkowników", "Wszystkie typy terminów", "Powiadomienia push + e-mail", "Priorytetowe wsparcie", "Zaawansowane raporty"]
+      },
+      "business": {
+        "name": "Business",
+        "description": "Dla większych flot",
+        "price": "€79",
+        "features": ["Do 100 pojazdów", "Do 25 użytkowników", "Wszystkie typy terminów", "Powiadomienia push + e-mail", "Dedykowane wsparcie", "Niestandardowe integracje"]
+      },
+      "enterprise": {
+        "name": "Enterprise",
+        "description": "Dla dużych organizacji",
+        "price": "€199+",
+        "features": ["Nieograniczona liczba pojazdów", "Nieograniczona liczba użytkowników", "Opcja white-label", "Dostęp do API", "Gwarancja SLA", "Opiekun konta"]
+      }
+    }
+  },
+  "testimonials": {
+    "badge": "Opinie",
+    "title": "Kochane przez",
+    "titleHighlight": "Menedżerów Flot",
+    "items": [
+      {
+        "text": "FleetKeeper uratował nas od kary €500 w zeszłym miesiącu. Przegapilibyśmy termin przeglądu technicznego bez powiadomienia.",
+        "author": "Mihai C.",
+        "role": "Menedżer Floty, 15 pojazdów"
+      },
+      {
+        "text": "Wreszcie wszystkie nasze terminy w jednym miejscu. Aplikacja mobilna jest tak łatwa w użyciu, że nawet nasi starsi kierowcy ją kochają.",
+        "author": "Anna S.",
+        "role": "Dyrektor Operacyjny, 45 pojazdów"
+      },
+      {
+        "text": "System powiadomień to dokładnie to, czego potrzebowaliśmy. Powiadomienia push i e-maile zapewniają, że nic nie umknie.",
+        "author": "Piotr K.",
+        "role": "Właściciel, 8 pojazdów"
+      }
+    ]
+  },
+  "faq": {
+    "badge": "FAQ",
+    "title": "Najczęściej Zadawane",
+    "titleHighlight": "Pytania",
+    "items": [
+      {
+        "question": "Czym jest FleetKeeper?",
+        "answer": "FleetKeeper to aplikacja mobilna zaprojektowana dla firm transportowych do śledzenia i zarządzania terminami wygaśnięcia pojazdów, kierowców i dokumentów firmowych. Wysyła inteligentne powiadomienia przed terminami, aby pomóc Ci zachować zgodność i uniknąć kar."
+      },
+      {
+        "question": "Czy FleetKeeper jest naprawdę darmowy?",
+        "answer": "Tak! Nasz plan Starter jest całkowicie darmowy dla małych flot z maksymalnie 5 pojazdami i 3 użytkownikami. Otrzymujesz dostęp do wszystkich typów terminów i powiadomień push. Nie wymaga karty kredytowej."
+      },
+      {
+        "question": "Jakie typy terminów mogę śledzić?",
+        "answer": "FleetKeeper obsługuje ponad 100 typów terminów, w tym przeglądy pojazdów, ubezpieczenia (OC, AC), kalibracje tachografów, prawa jazdy, karty kierowcy, certyfikaty ADR, badania lekarskie, zezwolenia firmowe i wiele więcej."
+      },
+      {
+        "question": "Jak działają powiadomienia?",
+        "answer": "FleetKeeper wysyła powiadomienia push i e-maile w konfigurowalnych odstępach: 60, 30, 14, 7, 3 i 1 dzień przed wygaśnięciem, plus przypomnienia o przeterminowanych elementach. Możesz dostosować, które powiadomienia otrzymujesz i kiedy."
+      },
+      {
+        "question": "Czy moje dane są bezpieczne?",
+        "answer": "Absolutnie. Używamy szyfrowania klasy enterprise i architektury multi-tenant, aby zapewnić izolację i ochronę Twoich danych. Jesteśmy w pełni zgodni z RODO i nigdy nie udostępniamy Twoich danych stronom trzecim."
+      },
+      {
+        "question": "Czy mogę używać FleetKeeper w moim języku?",
+        "answer": "Tak! FleetKeeper obsługuje 12 języków: angielski, rumuński, węgierski, polski, niemiecki, francuski, hiszpański, włoski, portugalski, holenderski, bułgarski i czeski. Więcej języków wkrótce."
+      },
+      {
+        "question": "Czy mogę dodać członków mojego zespołu?",
+        "answer": "Tak! FleetKeeper obsługuje wiele ról użytkowników: Admin (pełny dostęp), Manager (zarządzanie pojazdami, kierowcami, terminami) i Kierowca (tylko podgląd własnych danych). Zaproś członków zespołu bezpośrednio z aplikacji."
+      },
+      {
+        "question": "Czy mogę anulować subskrypcję w dowolnym momencie?",
+        "answer": "Tak, możesz anulować subskrypcję w dowolnym momencie. Nie ma długoterminowych umów ani opłat za anulowanie. Twoje dane pozostają dostępne do końca okresu rozliczeniowego."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Gotowy, Aby Nigdy Więcej Nie Przegapić Terminu?",
+    "description": "Dołącz do tysięcy menedżerów flot, którzy ufają FleetKeeper w utrzymaniu zgodności swoich operacji.",
+    "button": "Pobierz Darmową Aplikację",
+    "note": "Bezpłatnie dla flot do 5 pojazdów. Nie wymaga karty kredytowej."
+  },
+  "footer": {
+    "tagline": "Nigdy nie przegap terminu.",
+    "product": "Produkt",
+    "legal": "Prawne",
+    "support": "Wsparcie",
+    "privacyPolicy": "Polityka Prywatności",
+    "termsOfService": "Warunki Korzystania",
+    "cookiePolicy": "Polityka Cookies",
+    "gdpr": "RODO",
+    "contactUs": "Kontakt",
+    "copyright": "© 2026 FleetKeeper. Wszelkie prawa zastrzeżone."
+  },
+  "cookie": {
+    "message": "Używamy plików cookie, aby poprawić Twoje doświadczenia. Kontynuując korzystanie z tej strony, zgadzasz się na naszą",
+    "link": "Politykę Cookies",
+    "acceptAll": "Akceptuj Wszystkie",
+    "essentialOnly": "Tylko Niezbędne"
+  },
+  "download": {
+    "title": "Pobierz FleetKeeper",
+    "description": "Pobierz aplikację na swoje urządzenie i nigdy więcej nie przegap terminu.",
+    "detecting": "Wykrywanie urządzenia...",
+    "redirectingIos": "Przekierowanie do App Store...",
+    "redirectingAndroid": "Przekierowanie do Google Play...",
+    "chooseplatform": "Wybierz swoją platformę",
+    "iosComingSoon": "Link do App Store wkrótce",
+    "androidComingSoon": "Link do Google Play wkrótce",
+    "downloadIos": "Pobierz na iOS",
+    "downloadAndroid": "Pobierz na Android",
+    "notRedirecting": "Nie przekierowuje?",
+    "goBack": "Wróć do strony głównej"
+  },
+  "app": {
+    "dashboard": "Panel",
+    "expired": "Wygasło",
+    "expiringSoon": "Wkrótce Wygasa",
+    "valid": "Ważne",
+    "days": "dni"
+  }
+}

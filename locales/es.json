@@ -1,0 +1,253 @@
+{
+  "lang": "es",
+  "langName": "Español",
+  "meta": {
+    "title": "FleetKeeper - Nunca Pierdas una Fecha Límite | App de Gestión de Vencimientos de Flota",
+    "description": "FleetKeeper ayuda a las empresas de transporte a rastrear inspecciones de vehículos, licencias de conducir, renovaciones de seguros y más de 100 tipos de vencimientos. Recibe notificaciones inteligentes antes de las fechas límite. Gratis para flotas pequeñas."
+  },
+  "nav": {
+    "features": "Características",
+    "howItWorks": "Cómo Funciona",
+    "pricing": "Precios",
+    "faq": "FAQ",
+    "download": "Descargar App"
+  },
+  "hero": {
+    "badge": "Ahora disponible para iOS y Android",
+    "title": "Nunca Más Pierdas una",
+    "titleHighlight": "Fecha Límite",
+    "titleEnd": "",
+    "description": "Rastrea inspecciones de vehículos, licencias de conducir, renovaciones de seguros y más de 100 tipos de vencimientos. Recibe notificaciones inteligentes antes de las fechas límite. Mantente conforme, evita multas.",
+    "downloadFree": "Descargar Gratis",
+    "seeHowItWorks": "Ver Cómo Funciona",
+    "stats": {
+      "expirationTypes": "Tipos de Vencimiento",
+      "languages": "Idiomas",
+      "freeForSmallFleets": "Para Flotas Pequeñas"
+    }
+  },
+  "trust": {
+    "text": "Confiado por empresas de transporte en toda Europa",
+    "gdpr": "Cumple RGPD",
+    "secure": "Datos Seguros",
+    "languages": "12 Idiomas",
+    "uptime": "99.9% Disponibilidad"
+  },
+  "features": {
+    "badge": "Características",
+    "title": "Todo lo que Necesitas para",
+    "titleHighlight": "Mantenerte Conforme",
+    "description": "FleetKeeper proporciona herramientas completas para gestionar todas las fechas de vencimiento de tu flota en un solo lugar.",
+    "items": {
+      "tracking": {
+        "title": "Seguimiento de Vencimientos",
+        "description": "Rastrea más de 100 tipos de vencimientos para vehículos, conductores y documentos de empresa. Nunca pierdas de vista las fechas límite importantes."
+      },
+      "notifications": {
+        "title": "Notificaciones Inteligentes",
+        "description": "Recibe alertas push y por correo en intervalos personalizables: 60, 30, 14, 7, 3 y 1 día antes del vencimiento."
+      },
+      "vehicles": {
+        "title": "Gestión de Vehículos",
+        "description": "Registro completo de vehículos con especificaciones técnicas, fotos y todos los términos de vencimiento vinculados en una sola vista."
+      },
+      "drivers": {
+        "title": "Gestión de Conductores",
+        "description": "Rastrea licencias de conducir, tarjetas de conductor, certificaciones ADR, exámenes médicos y cualificaciones profesionales."
+      },
+      "documents": {
+        "title": "Almacenamiento de Documentos",
+        "description": "Adjunta fotos y escaneos de certificados, licencias y documentos directamente a los términos de vencimiento."
+      },
+      "roles": {
+        "title": "Acceso Basado en Roles",
+        "description": "Roles de Admin, Manager y Conductor con permisos apropiados. Mantén tus datos seguros y organizados."
+      }
+    }
+  },
+  "expirationTypes": {
+    "badge": "Completo",
+    "title": "Rastrea",
+    "titleHighlight": "Cada Vencimiento",
+    "titleEnd": "Que Importa",
+    "description": "Desde inspecciones de vehículos hasta certificaciones de conductores, FleetKeeper cubre todas tus necesidades de cumplimiento.",
+    "vehicle": {
+      "title": "Términos de Vehículos",
+      "count": "45+ tipos",
+      "items": ["ITV / Inspección Técnica", "Seguro RC", "Seguro a Todo Riesgo", "Calibración Tacógrafo", "Certificado ADR", "Verificación Limitador Velocidad", "Extintor", "Y 38 más..."]
+    },
+    "driver": {
+      "title": "Términos de Conductores",
+      "count": "30+ tipos",
+      "items": ["Licencia de Conducir", "Tarjeta de Conductor (CAP)", "Licencia ADR", "Certificado Médico", "Evaluación Psicológica", "Permiso de Trabajo", "Contrato de Trabajo", "Y 23 más..."]
+    },
+    "company": {
+      "title": "Términos de Empresa",
+      "count": "25+ tipos",
+      "items": ["Licencia de Transporte", "Autorización de Operación", "Seguro de Responsabilidad", "Autorizaciones CEMT", "Certificaciones ISO", "Contratos de Servicio", "Contratos de Leasing", "Y 18 más..."]
+    }
+  },
+  "howItWorks": {
+    "badge": "Simple",
+    "title": "Comienza en",
+    "titleHighlight": "3 Pasos Sencillos",
+    "description": "Configura la gestión de tu flota en minutos, no horas. Sin configuración compleja necesaria.",
+    "steps": {
+      "download": {
+        "title": "Descargar y Registrarse",
+        "description": "Obtén FleetKeeper en App Store o Google Play. Crea tu cuenta y empresa en menos de un minuto."
+      },
+      "addFleet": {
+        "title": "Añadir Tu Flota",
+        "description": "Añade tus vehículos, conductores y sus fechas de vencimiento. Adjunta documentos y configura preferencias de notificación."
+      },
+      "stayNotified": {
+        "title": "Mantente Notificado",
+        "description": "Recibe alertas automáticas antes de los vencimientos. Actúa y renueva a tiempo, siempre."
+      }
+    }
+  },
+  "pricing": {
+    "badge": "Precios",
+    "title": "Precios",
+    "titleHighlight": "Simples y Transparentes",
+    "description": "Empieza gratis y escala con el crecimiento de tu flota. Sin costos ocultos, cancela cuando quieras.",
+    "popular": "Más Popular",
+    "perMonth": "/mes",
+    "getStartedFree": "Empezar Gratis",
+    "startFreeTrial": "Iniciar Prueba Gratis",
+    "contactSales": "Contactar Ventas",
+    "plans": {
+      "starter": {
+        "name": "Starter",
+        "description": "Perfecto para flotas pequeñas",
+        "price": "€0",
+        "features": ["Hasta 5 vehículos", "Hasta 3 usuarios", "Todos los tipos de vencimiento", "Notificaciones push", "Almacenamiento de documentos"]
+      },
+      "professional": {
+        "name": "Professional",
+        "description": "Para negocios en crecimiento",
+        "price": "€29",
+        "features": ["Hasta 25 vehículos", "Hasta 10 usuarios", "Todos los tipos de vencimiento", "Notificaciones push + correo", "Soporte prioritario", "Informes avanzados"]
+      },
+      "business": {
+        "name": "Business",
+        "description": "Para flotas más grandes",
+        "price": "€79",
+        "features": ["Hasta 100 vehículos", "Hasta 25 usuarios", "Todos los tipos de vencimiento", "Notificaciones push + correo", "Soporte dedicado", "Integraciones personalizadas"]
+      },
+      "enterprise": {
+        "name": "Enterprise",
+        "description": "Para grandes organizaciones",
+        "price": "€199+",
+        "features": ["Vehículos ilimitados", "Usuarios ilimitados", "Opción marca blanca", "Acceso API", "Garantía SLA", "Gestor de cuenta"]
+      }
+    }
+  },
+  "testimonials": {
+    "badge": "Testimonios",
+    "title": "Amado por los",
+    "titleHighlight": "Gestores de Flota",
+    "items": [
+      {
+        "text": "FleetKeeper nos salvó de una multa de €500 el mes pasado. Habríamos perdido nuestra fecha límite de ITV sin la notificación.",
+        "author": "Mihai C.",
+        "role": "Gestor de Flota, 15 vehículos"
+      },
+      {
+        "text": "Por fin, todas nuestras fechas de vencimiento en un solo lugar. La app móvil es tan fácil de usar que incluso nuestros conductores mayores la adoran.",
+        "author": "Anna S.",
+        "role": "Directora de Operaciones, 45 vehículos"
+      },
+      {
+        "text": "El sistema de notificaciones es exactamente lo que necesitábamos. Las notificaciones push y correos aseguran que nada se escape.",
+        "author": "Piotr K.",
+        "role": "Propietario, 8 vehículos"
+      }
+    ]
+  },
+  "faq": {
+    "badge": "FAQ",
+    "title": "Preguntas",
+    "titleHighlight": "Frecuentes",
+    "items": [
+      {
+        "question": "¿Qué es FleetKeeper?",
+        "answer": "FleetKeeper es una aplicación móvil diseñada para empresas de transporte para rastrear y gestionar fechas de vencimiento de vehículos, conductores y documentos de empresa. Envía notificaciones inteligentes antes de las fechas límite para ayudarte a mantenerte conforme y evitar multas."
+      },
+      {
+        "question": "¿FleetKeeper es realmente gratis?",
+        "answer": "¡Sí! Nuestro plan Starter es completamente gratis para flotas pequeñas con hasta 5 vehículos y 3 usuarios. Tienes acceso a todos los tipos de vencimiento y notificaciones push. No se requiere tarjeta de crédito."
+      },
+      {
+        "question": "¿Qué tipos de vencimientos puedo rastrear?",
+        "answer": "FleetKeeper soporta más de 100 tipos de vencimientos incluyendo inspecciones de vehículos (ITV), seguros (RC, todo riesgo), calibraciones de tacógrafo, licencias de conducir, tarjetas de conductor, certificados ADR, exámenes médicos, permisos de empresa y mucho más."
+      },
+      {
+        "question": "¿Cómo funcionan las notificaciones?",
+        "answer": "FleetKeeper envía notificaciones push y correos en intervalos configurables: 60, 30, 14, 7, 3 y 1 día antes del vencimiento, más recordatorios para elementos vencidos. Puedes personalizar qué notificaciones recibes y cuándo."
+      },
+      {
+        "question": "¿Están seguros mis datos?",
+        "answer": "Absolutamente. Usamos encriptación de nivel empresarial y arquitectura multi-tenant para asegurar que tus datos estén aislados y protegidos. Cumplimos completamente con RGPD y nunca compartimos tus datos con terceros."
+      },
+      {
+        "question": "¿Puedo usar FleetKeeper en mi idioma?",
+        "answer": "¡Sí! FleetKeeper soporta 12 idiomas: inglés, rumano, húngaro, polaco, alemán, francés, español, italiano, portugués, holandés, búlgaro y checo. Más idiomas próximamente."
+      },
+      {
+        "question": "¿Puedo añadir a los miembros de mi equipo?",
+        "answer": "¡Sí! FleetKeeper soporta múltiples roles de usuario: Admin (acceso completo), Manager (gestionar vehículos, conductores, términos) y Conductor (solo visualización de sus propios datos). Invita a miembros del equipo directamente desde la app."
+      },
+      {
+        "question": "¿Puedo cancelar mi suscripción en cualquier momento?",
+        "answer": "Sí, puedes cancelar tu suscripción en cualquier momento. No hay contratos a largo plazo ni tasas de cancelación. Tus datos permanecen accesibles hasta el final del período de facturación."
+      }
+    ]
+  },
+  "cta": {
+    "title": "¿Listo para Nunca Más Perder una Fecha Límite?",
+    "description": "Únete a miles de gestores de flota que confían en FleetKeeper para mantener sus operaciones conformes.",
+    "button": "Descargar App Gratis",
+    "note": "Gratis para flotas de hasta 5 vehículos. No se requiere tarjeta de crédito."
+  },
+  "footer": {
+    "tagline": "Nunca pierdas una fecha límite.",
+    "product": "Producto",
+    "legal": "Legal",
+    "support": "Soporte",
+    "privacyPolicy": "Política de Privacidad",
+    "termsOfService": "Términos de Servicio",
+    "cookiePolicy": "Política de Cookies",
+    "gdpr": "RGPD",
+    "contactUs": "Contáctanos",
+    "copyright": "© 2026 FleetKeeper. Todos los derechos reservados."
+  },
+  "cookie": {
+    "message": "Usamos cookies para mejorar tu experiencia. Al continuar usando este sitio, aceptas nuestra",
+    "link": "Política de Cookies",
+    "acceptAll": "Aceptar Todo",
+    "essentialOnly": "Solo Esenciales"
+  },
+  "download": {
+    "title": "Descargar FleetKeeper",
+    "description": "Obtén la app en tu dispositivo y nunca más pierdas una fecha límite.",
+    "detecting": "Detectando tu dispositivo...",
+    "redirectingIos": "Redirigiendo a App Store...",
+    "redirectingAndroid": "Redirigiendo a Google Play...",
+    "chooseplatform": "Elige tu plataforma",
+    "iosComingSoon": "Enlace App Store próximamente",
+    "androidComingSoon": "Enlace Google Play próximamente",
+    "downloadIos": "Descargar para iOS",
+    "downloadAndroid": "Descargar para Android",
+    "notRedirecting": "¿No redirige?",
+    "goBack": "Volver a inicio"
+  },
+  "app": {
+    "dashboard": "Panel",
+    "expired": "Vencido",
+    "expiringSoon": "Vence Pronto",
+    "valid": "Válido",
+    "days": "días"
+  }
+}

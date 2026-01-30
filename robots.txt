@@ -1,0 +1,41 @@
+# FleetKeeper Robots.txt
+# https://fleetkeeper.app
+
+# Allow all crawlers
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://fleetkeeper.app/sitemap.xml
+
+# LLMs.txt location (for AI crawlers)
+# See: https://llmstxt.org/
+# LLMs can find additional context at /llms.txt
+
+# Crawl delay (optional, be nice to our server)
+Crawl-delay: 1
+
+# Specific rules for common bots
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: Anthropic-AI
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /

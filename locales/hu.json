@@ -1,0 +1,253 @@
+{
+  "lang": "hu",
+  "langName": "Magyar",
+  "meta": {
+    "title": "FleetKeeper - Soha Ne Mulasszon El Határidőt | Flotta Lejáratkezelő Alkalmazás",
+    "description": "A FleetKeeper segít a szállítmányozó cégeknek nyomon követni a járműellenőrzéseket, vezetői engedélyeket, biztosítás megújításokat és több mint 100 lejárati típust. Kapjon intelligens értesítéseket a határidők előtt. Ingyenes kis flották számára."
+  },
+  "nav": {
+    "features": "Funkciók",
+    "howItWorks": "Hogyan Működik",
+    "pricing": "Árak",
+    "faq": "GYIK",
+    "download": "Alkalmazás Letöltése"
+  },
+  "hero": {
+    "badge": "Most elérhető iOS-re és Androidra",
+    "title": "Soha Többé Ne Mulasszon El",
+    "titleHighlight": "Határidőt",
+    "titleEnd": "",
+    "description": "Kövesse nyomon a járműellenőrzéseket, vezetői engedélyeket, biztosítás megújításokat és több mint 100 lejárati típust. Kapjon intelligens értesítéseket a határidők előtt. Maradjon megfelelő, kerülje el a bírságokat.",
+    "downloadFree": "Ingyenes Letöltés",
+    "seeHowItWorks": "Hogyan Működik",
+    "stats": {
+      "expirationTypes": "Lejárati Típus",
+      "languages": "Nyelv",
+      "freeForSmallFleets": "Kis Flottáknak"
+    }
+  },
+  "trust": {
+    "text": "Európa szerte szállítmányozó cégek bíznak benne",
+    "gdpr": "GDPR Megfelelő",
+    "secure": "Biztonságos Adatok",
+    "languages": "12 Nyelv",
+    "uptime": "99.9% Rendelkezésre Állás"
+  },
+  "features": {
+    "badge": "Funkciók",
+    "title": "Minden Amire Szüksége Van a",
+    "titleHighlight": "Megfelelőség Fenntartásához",
+    "description": "A FleetKeeper átfogó eszközöket biztosít a flotta összes lejárati dátumának egyetlen helyen történő kezeléséhez.",
+    "items": {
+      "tracking": {
+        "title": "Lejárat Követés",
+        "description": "Kövessen nyomon több mint 100 típusú lejáratot járművekhez, sofőrökhöz és céges dokumentumokhoz. Soha ne veszítse szem elől a fontos határidőket."
+      },
+      "notifications": {
+        "title": "Intelligens Értesítések",
+        "description": "Kapjon push és e-mail értesítéseket testreszabható időközönként: 60, 30, 14, 7, 3 és 1 nappal a lejárat előtt."
+      },
+      "vehicles": {
+        "title": "Járműkezelés",
+        "description": "Teljes járműnyilvántartás műszaki adatokkal, fényképekkel és az összes kapcsolódó lejárati határidővel egy nézetben."
+      },
+      "drivers": {
+        "title": "Sofőrkezelés",
+        "description": "Kövesse nyomon a vezetői engedélyeket, GKI kártyákat, ADR tanúsítványokat, orvosi vizsgálatokat és szakmai képesítéseket."
+      },
+      "documents": {
+        "title": "Dokumentumtárolás",
+        "description": "Csatoljon fényképeket és szkennelt dokumentumokat közvetlenül a lejárati határidőkhöz."
+      },
+      "roles": {
+        "title": "Szerepkör Alapú Hozzáférés",
+        "description": "Admin, Menedzser és Sofőr szerepkörök megfelelő jogosultságokkal. Tartsa biztonságban és rendszerezve adatait."
+      }
+    }
+  },
+  "expirationTypes": {
+    "badge": "Átfogó",
+    "title": "Kövessen Nyomon",
+    "titleHighlight": "Minden Lejáratot",
+    "titleEnd": "Ami Számít",
+    "description": "A járműellenőrzésektől a sofőr tanúsítványokig a FleetKeeper lefedi minden megfelelőségi igényét.",
+    "vehicle": {
+      "title": "Jármű Határidők",
+      "count": "45+ típus",
+      "items": ["Műszaki Vizsga", "Kötelező Biztosítás", "CASCO Biztosítás", "Tachográf Kalibrálás", "ADR Tanúsítvány", "Sebességkorlátozó Ellenőrzés", "Tűzoltó Készülék", "És még 38..."]
+    },
+    "driver": {
+      "title": "Sofőr Határidők",
+      "count": "30+ típus",
+      "items": ["Vezetői Engedély", "GKI Kártya (Sofőr Képesítés)", "ADR Jogosítvány", "Orvosi Igazolás", "Pszichológiai Értékelés", "Munkavállalási Engedély", "Munkaszerződés", "És még 23..."]
+    },
+    "company": {
+      "title": "Céges Határidők",
+      "count": "25+ típus",
+      "items": ["Szállítási Engedély", "Működési Engedély", "Felelősségbiztosítás", "CEMT Engedélyek", "ISO Tanúsítványok", "Szerviz Szerződések", "Lízing Szerződések", "És még 18..."]
+    }
+  },
+  "howItWorks": {
+    "badge": "Egyszerű",
+    "title": "Kezdjen",
+    "titleHighlight": "3 Egyszerű Lépésben",
+    "description": "Állítsa be flottakezelését percek alatt, nem órák alatt. Nincs szükség bonyolult konfigurációra.",
+    "steps": {
+      "download": {
+        "title": "Letöltés és Regisztráció",
+        "description": "Szerezze be a FleetKeeper-t az App Store-ból vagy Google Play-ből. Hozza létre fiókját és cégét egy perc alatt."
+      },
+      "addFleet": {
+        "title": "Flotta Hozzáadása",
+        "description": "Adja hozzá járműveit, sofőrjeit és azok lejárati dátumait. Csatoljon dokumentumokat és állítsa be az értesítési beállításokat."
+      },
+      "stayNotified": {
+        "title": "Maradjon Értesítve",
+        "description": "Kapjon automatikus értesítéseket a lejáratok előtt. Cselekedjen és újítson időben, minden alkalommal."
+      }
+    }
+  },
+  "pricing": {
+    "badge": "Árak",
+    "title": "Egyszerű,",
+    "titleHighlight": "Átlátható Árak",
+    "description": "Kezdje ingyenesen és skálázzon a flottája növekedésével. Nincsenek rejtett díjak, bármikor lemondható.",
+    "popular": "Legnépszerűbb",
+    "perMonth": "/hónap",
+    "getStartedFree": "Ingyenes Kezdés",
+    "startFreeTrial": "Próbaidőszak Indítása",
+    "contactSales": "Értékesítés Elérése",
+    "plans": {
+      "starter": {
+        "name": "Kezdő",
+        "description": "Tökéletes kis flottáknak",
+        "price": "€0",
+        "features": ["Legfeljebb 5 jármű", "Legfeljebb 3 felhasználó", "Minden lejárati típus", "Push értesítések", "Dokumentumtárolás"]
+      },
+      "professional": {
+        "name": "Professzionális",
+        "description": "Növekvő vállalkozásoknak",
+        "price": "€29",
+        "features": ["Legfeljebb 25 jármű", "Legfeljebb 10 felhasználó", "Minden lejárati típus", "Push + E-mail értesítések", "Elsőbbségi támogatás", "Haladó riportok"]
+      },
+      "business": {
+        "name": "Üzleti",
+        "description": "Nagyobb flottáknak",
+        "price": "€79",
+        "features": ["Legfeljebb 100 jármű", "Legfeljebb 25 felhasználó", "Minden lejárati típus", "Push + E-mail értesítések", "Dedikált támogatás", "Egyedi integrációk"]
+      },
+      "enterprise": {
+        "name": "Vállalati",
+        "description": "Nagy szervezeteknek",
+        "price": "€199+",
+        "features": ["Korlátlan jármű", "Korlátlan felhasználó", "White-label opció", "API hozzáférés", "SLA garancia", "Fiókmenedzser"]
+      }
+    }
+  },
+  "testimonials": {
+    "badge": "Vélemények",
+    "title": "Szeretik a",
+    "titleHighlight": "Flottamenedzserek",
+    "items": [
+      {
+        "text": "A FleetKeeper megmentett minket egy €500-os bírságtól múlt hónapban. Az értesítés nélkül lemaradtunk volna a műszaki vizsga határidőről.",
+        "author": "Mihai C.",
+        "role": "Flottamenedzser, 15 jármű"
+      },
+      {
+        "text": "Végre minden lejárati dátumunk egy helyen. A mobilalkalmazás olyan könnyen használható, még az idősebb sofőrjeink is szeretik.",
+        "author": "Anna S.",
+        "role": "Működési Igazgató, 45 jármű"
+      },
+      {
+        "text": "Az értesítési rendszer pontosan az, amire szükségünk volt. A push értesítések és e-mailek biztosítják, hogy semmi ne csússzon ki.",
+        "author": "Piotr K.",
+        "role": "Tulajdonos, 8 jármű"
+      }
+    ]
+  },
+  "faq": {
+    "badge": "GYIK",
+    "title": "Gyakran Ismételt",
+    "titleHighlight": "Kérdések",
+    "items": [
+      {
+        "question": "Mi az a FleetKeeper?",
+        "answer": "A FleetKeeper egy mobilalkalmazás szállítmányozó cégek számára a járművek, sofőrök és céges dokumentumok lejárati dátumainak nyomon követésére és kezelésére. Intelligens értesítéseket küld a határidők előtt, hogy segítsen megfelelőnek maradni és elkerülni a bírságokat."
+      },
+      {
+        "question": "A FleetKeeper tényleg ingyenes?",
+        "answer": "Igen! A Kezdő csomagunk teljesen ingyenes kis flottáknak legfeljebb 5 járművel és 3 felhasználóval. Hozzáférést kap minden lejárati típushoz és push értesítésekhez. Nincs szükség bankkártyára."
+      },
+      {
+        "question": "Milyen típusú lejáratokat követhetek nyomon?",
+        "answer": "A FleetKeeper több mint 100 lejárati típust támogat, beleértve a járműellenőrzéseket (műszaki vizsga), biztosításokat (kötelező, CASCO), tachográf kalibrálásokat, vezetői engedélyeket, GKI kártyákat, ADR tanúsítványokat, orvosi vizsgálatokat, céges engedélyeket és még sok mást."
+      },
+      {
+        "question": "Hogyan működnek az értesítések?",
+        "answer": "A FleetKeeper push értesítéseket és e-maileket küld konfigurálható időközönként: 60, 30, 14, 7, 3 és 1 nappal a lejárat előtt, plusz emlékeztetőket a lejárt tételekhez. Testreszabhatja, mely értesítéseket kapja és mikor."
+      },
+      {
+        "question": "Biztonságban vannak az adataim?",
+        "answer": "Feltétlenül. Vállalati szintű titkosítást és több-bérlős architektúrát használunk annak biztosítására, hogy adatai elkülönítettek és védettek legyenek. Teljes mértékben GDPR-megfelelőek vagyunk és soha nem osztjuk meg adatait harmadik felekkel."
+      },
+      {
+        "question": "Használhatom a FleetKeeper-t a saját nyelvemen?",
+        "answer": "Igen! A FleetKeeper 12 nyelvet támogat: angol, román, magyar, lengyel, német, francia, spanyol, olasz, portugál, holland, bolgár és cseh. További nyelvek hamarosan."
+      },
+      {
+        "question": "Hozzáadhatom a csapattagjaimat?",
+        "answer": "Igen! A FleetKeeper több felhasználói szerepkört támogat: Admin (teljes hozzáférés), Menedzser (járművek, sofőrök, határidők kezelése) és Sofőr (csak megtekintés a saját adataikhoz). Hívja meg a csapattagokat közvetlenül az alkalmazásból."
+      },
+      {
+        "question": "Bármikor lemondhatom az előfizetésemet?",
+        "answer": "Igen, bármikor lemondhatja előfizetését. Nincsenek hosszú távú szerződések vagy lemondási díjak. Adatai a számlázási időszak végéig elérhetőek maradnak."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Készen Áll Arra, Hogy Soha Ne Mulasszon El Határidőt?",
+    "description": "Csatlakozzon a több ezer flottamenedzserhez, akik a FleetKeeper-ben bíznak működésük megfelelőségének fenntartásában.",
+    "button": "Ingyenes Alkalmazás Letöltése",
+    "note": "Ingyenes legfeljebb 5 járműves flottáknak. Nincs szükség bankkártyára."
+  },
+  "footer": {
+    "tagline": "Soha ne mulasszon el határidőt.",
+    "product": "Termék",
+    "legal": "Jogi",
+    "support": "Támogatás",
+    "privacyPolicy": "Adatvédelmi Irányelvek",
+    "termsOfService": "Szolgáltatási Feltételek",
+    "cookiePolicy": "Cookie Szabályzat",
+    "gdpr": "GDPR",
+    "contactUs": "Kapcsolat",
+    "copyright": "© 2026 FleetKeeper. Minden jog fenntartva."
+  },
+  "cookie": {
+    "message": "Cookie-kat használunk az élmény javítására. Az oldal további használatával elfogadja a",
+    "link": "Cookie Szabályzatunkat",
+    "acceptAll": "Összes Elfogadása",
+    "essentialOnly": "Csak Szükségesek"
+  },
+  "download": {
+    "title": "FleetKeeper Letöltése",
+    "description": "Szerezze be az alkalmazást eszközére és soha többé ne mulasszon el határidőt.",
+    "detecting": "Eszköz felismerése...",
+    "redirectingIos": "Átirányítás az App Store-ba...",
+    "redirectingAndroid": "Átirányítás a Google Play-be...",
+    "chooseplatform": "Válassza ki platformját",
+    "iosComingSoon": "iOS App Store link hamarosan",
+    "androidComingSoon": "Google Play link hamarosan",
+    "downloadIos": "Letöltés iOS-re",
+    "downloadAndroid": "Letöltés Androidra",
+    "notRedirecting": "Nem irányít át?",
+    "goBack": "Vissza a főoldalra"
+  },
+  "app": {
+    "dashboard": "Vezérlőpult",
+    "expired": "Lejárt",
+    "expiringSoon": "Hamarosan Lejár",
+    "valid": "Érvényes",
+    "days": "nap"
+  }
+}

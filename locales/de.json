@@ -1,0 +1,253 @@
+{
+  "lang": "de",
+  "langName": "Deutsch",
+  "meta": {
+    "title": "FleetKeeper - Verpassen Sie Nie Eine Frist | Flottenmanagement-App für Ablaufdaten",
+    "description": "FleetKeeper hilft Transportunternehmen, Fahrzeugprüfungen, Führerscheine, Versicherungsverlängerungen und über 100 Ablaufarten zu verfolgen. Erhalten Sie intelligente Benachrichtigungen vor Fristen. Kostenlos für kleine Flotten."
+  },
+  "nav": {
+    "features": "Funktionen",
+    "howItWorks": "So funktioniert's",
+    "pricing": "Preise",
+    "faq": "FAQ",
+    "download": "App Herunterladen"
+  },
+  "hero": {
+    "badge": "Jetzt für iOS & Android verfügbar",
+    "title": "Verpassen Sie Nie Wieder Eine",
+    "titleHighlight": "Frist",
+    "titleEnd": "",
+    "description": "Verfolgen Sie Fahrzeugprüfungen, Führerscheine, Versicherungsverlängerungen und über 100 Ablaufarten. Erhalten Sie intelligente Benachrichtigungen vor Fristen. Bleiben Sie konform, vermeiden Sie Bußgelder.",
+    "downloadFree": "Kostenlos Herunterladen",
+    "seeHowItWorks": "So funktioniert's",
+    "stats": {
+      "expirationTypes": "Ablaufarten",
+      "languages": "Sprachen",
+      "freeForSmallFleets": "Für Kleine Flotten"
+    }
+  },
+  "trust": {
+    "text": "Vertraut von Transportunternehmen in ganz Europa",
+    "gdpr": "DSGVO-Konform",
+    "secure": "Sichere Daten",
+    "languages": "12 Sprachen",
+    "uptime": "99,9% Verfügbarkeit"
+  },
+  "features": {
+    "badge": "Funktionen",
+    "title": "Alles was Sie brauchen um",
+    "titleHighlight": "Konform zu Bleiben",
+    "description": "FleetKeeper bietet umfassende Tools zur Verwaltung aller Ablaufdaten Ihrer Flotte an einem Ort.",
+    "items": {
+      "tracking": {
+        "title": "Ablaufverfolgung",
+        "description": "Verfolgen Sie über 100 Arten von Ablaufdaten für Fahrzeuge, Fahrer und Unternehmensdokumente. Verlieren Sie nie den Überblick über wichtige Fristen."
+      },
+      "notifications": {
+        "title": "Intelligente Benachrichtigungen",
+        "description": "Erhalten Sie Push- und E-Mail-Benachrichtigungen in anpassbaren Intervallen: 60, 30, 14, 7, 3 und 1 Tag vor Ablauf."
+      },
+      "vehicles": {
+        "title": "Fahrzeugverwaltung",
+        "description": "Vollständiges Fahrzeugregister mit technischen Daten, Fotos und allen verknüpften Ablaufterminen in einer Ansicht."
+      },
+      "drivers": {
+        "title": "Fahrerverwaltung",
+        "description": "Verfolgen Sie Führerscheine, CPC-Karten, ADR-Zertifizierungen, ärztliche Untersuchungen und Berufsqualifikationen."
+      },
+      "documents": {
+        "title": "Dokumentenspeicher",
+        "description": "Fügen Sie Fotos und Scans von Zertifikaten, Lizenzen und Dokumenten direkt zu Ablaufterminen hinzu."
+      },
+      "roles": {
+        "title": "Rollenbasierter Zugriff",
+        "description": "Admin-, Manager- und Fahrerrollen mit entsprechenden Berechtigungen. Halten Sie Ihre Daten sicher und organisiert."
+      }
+    }
+  },
+  "expirationTypes": {
+    "badge": "Umfassend",
+    "title": "Verfolgen Sie",
+    "titleHighlight": "Jeden Ablauf",
+    "titleEnd": "Der Wichtig Ist",
+    "description": "Von Fahrzeugprüfungen bis zu Fahrerzertifizierungen deckt FleetKeeper alle Ihre Compliance-Anforderungen ab.",
+    "vehicle": {
+      "title": "Fahrzeugtermine",
+      "count": "45+ Arten",
+      "items": ["HU/AU Prüfung", "Kfz-Haftpflicht", "Kaskoversicherung", "Tachographenkalibrierung", "ADR-Zertifikat", "Geschwindigkeitsbegrenzer", "Feuerlöscher", "Und 38 mehr..."]
+    },
+    "driver": {
+      "title": "Fahrertermine",
+      "count": "30+ Arten",
+      "items": ["Führerschein", "Fahrerkarte (Qualifikation)", "ADR-Schein", "Ärztliches Attest", "Psychologische Bewertung", "Arbeitserlaubnis", "Arbeitsvertrag", "Und 23 mehr..."]
+    },
+    "company": {
+      "title": "Unternehmensstermine",
+      "count": "25+ Arten",
+      "items": ["Transportlizenz", "Betriebsgenehmigung", "Haftpflichtversicherung", "CEMT-Genehmigungen", "ISO-Zertifizierungen", "Serviceverträge", "Leasingverträge", "Und 18 mehr..."]
+    }
+  },
+  "howItWorks": {
+    "badge": "Einfach",
+    "title": "Starten Sie in",
+    "titleHighlight": "3 Einfachen Schritten",
+    "description": "Richten Sie Ihr Flottenmanagement in Minuten ein, nicht in Stunden. Keine komplexe Konfiguration erforderlich.",
+    "steps": {
+      "download": {
+        "title": "Herunterladen & Registrieren",
+        "description": "Holen Sie sich FleetKeeper aus dem App Store oder Google Play. Erstellen Sie Ihr Konto und Unternehmen in weniger als einer Minute."
+      },
+      "addFleet": {
+        "title": "Flotte Hinzufügen",
+        "description": "Fügen Sie Ihre Fahrzeuge, Fahrer und deren Ablaufdaten hinzu. Hängen Sie Dokumente an und legen Sie Benachrichtigungseinstellungen fest."
+      },
+      "stayNotified": {
+        "title": "Benachrichtigt Bleiben",
+        "description": "Erhalten Sie automatische Benachrichtigungen vor Ablaufdaten. Handeln Sie rechtzeitig und verlängern Sie pünktlich, jedes Mal."
+      }
+    }
+  },
+  "pricing": {
+    "badge": "Preise",
+    "title": "Einfache,",
+    "titleHighlight": "Transparente Preise",
+    "description": "Starten Sie kostenlos und skalieren Sie mit Ihrer Flotte. Keine versteckten Gebühren, jederzeit kündbar.",
+    "popular": "Am Beliebtesten",
+    "perMonth": "/Monat",
+    "getStartedFree": "Kostenlos Starten",
+    "startFreeTrial": "Testversion Starten",
+    "contactSales": "Vertrieb Kontaktieren",
+    "plans": {
+      "starter": {
+        "name": "Starter",
+        "description": "Perfekt für kleine Flotten",
+        "price": "€0",
+        "features": ["Bis zu 5 Fahrzeuge", "Bis zu 3 Benutzer", "Alle Ablaufarten", "Push-Benachrichtigungen", "Dokumentenspeicher"]
+      },
+      "professional": {
+        "name": "Professional",
+        "description": "Für wachsende Unternehmen",
+        "price": "€29",
+        "features": ["Bis zu 25 Fahrzeuge", "Bis zu 10 Benutzer", "Alle Ablaufarten", "Push + E-Mail-Benachrichtigungen", "Prioritäts-Support", "Erweiterte Berichte"]
+      },
+      "business": {
+        "name": "Business",
+        "description": "Für größere Flotten",
+        "price": "€79",
+        "features": ["Bis zu 100 Fahrzeuge", "Bis zu 25 Benutzer", "Alle Ablaufarten", "Push + E-Mail-Benachrichtigungen", "Dedizierter Support", "Individuelle Integrationen"]
+      },
+      "enterprise": {
+        "name": "Enterprise",
+        "description": "Für große Organisationen",
+        "price": "€199+",
+        "features": ["Unbegrenzte Fahrzeuge", "Unbegrenzte Benutzer", "White-Label-Option", "API-Zugang", "SLA-Garantie", "Account Manager"]
+      }
+    }
+  },
+  "testimonials": {
+    "badge": "Bewertungen",
+    "title": "Geliebt von",
+    "titleHighlight": "Flottenmanagern",
+    "items": [
+      {
+        "text": "FleetKeeper hat uns letzten Monat vor einem €500 Bußgeld bewahrt. Wir hätten unsere HU-Frist ohne die Benachrichtigung verpasst.",
+        "author": "Mihai C.",
+        "role": "Flottenmanager, 15 Fahrzeuge"
+      },
+      {
+        "text": "Endlich alle unsere Ablaufdaten an einem Ort. Die mobile App ist so einfach zu bedienen, selbst unsere älteren Fahrer lieben sie.",
+        "author": "Anna S.",
+        "role": "Betriebsleiterin, 45 Fahrzeuge"
+      },
+      {
+        "text": "Das Benachrichtigungssystem ist genau das, was wir brauchten. Push-Benachrichtigungen und E-Mails sorgen dafür, dass nichts durchrutscht.",
+        "author": "Piotr K.",
+        "role": "Inhaber, 8 Fahrzeuge"
+      }
+    ]
+  },
+  "faq": {
+    "badge": "FAQ",
+    "title": "Häufig Gestellte",
+    "titleHighlight": "Fragen",
+    "items": [
+      {
+        "question": "Was ist FleetKeeper?",
+        "answer": "FleetKeeper ist eine mobile App für Transportunternehmen zur Verfolgung und Verwaltung von Ablaufdaten für Fahrzeuge, Fahrer und Unternehmensdokumente. Sie sendet intelligente Benachrichtigungen vor Fristen, um Ihnen zu helfen, konform zu bleiben und Bußgelder zu vermeiden."
+      },
+      {
+        "question": "Ist FleetKeeper wirklich kostenlos?",
+        "answer": "Ja! Unser Starter-Plan ist für kleine Flotten mit bis zu 5 Fahrzeugen und 3 Benutzern völlig kostenlos. Sie erhalten Zugang zu allen Ablaufarten und Push-Benachrichtigungen. Keine Kreditkarte erforderlich."
+      },
+      {
+        "question": "Welche Arten von Ablaufdaten kann ich verfolgen?",
+        "answer": "FleetKeeper unterstützt über 100 Ablaufarten einschließlich Fahrzeugprüfungen (HU/AU), Versicherungen (Haftpflicht, Kasko), Tachographenkalibrierungen, Führerscheine, Fahrerkarten, ADR-Zertifikate, ärztliche Untersuchungen, Unternehmensgenehmigungen und vieles mehr."
+      },
+      {
+        "question": "Wie funktionieren Benachrichtigungen?",
+        "answer": "FleetKeeper sendet Push-Benachrichtigungen und E-Mails in konfigurierbaren Intervallen: 60, 30, 14, 7, 3 und 1 Tag vor Ablauf, plus Erinnerungen für überfällige Elemente. Sie können anpassen, welche Benachrichtigungen Sie wann erhalten."
+      },
+      {
+        "question": "Sind meine Daten sicher?",
+        "answer": "Absolut. Wir verwenden Verschlüsselung auf Enterprise-Niveau und Multi-Tenant-Architektur, um sicherzustellen, dass Ihre Daten isoliert und geschützt sind. Wir sind vollständig DSGVO-konform und teilen Ihre Daten niemals mit Dritten."
+      },
+      {
+        "question": "Kann ich FleetKeeper in meiner Sprache verwenden?",
+        "answer": "Ja! FleetKeeper unterstützt 12 Sprachen: Englisch, Rumänisch, Ungarisch, Polnisch, Deutsch, Französisch, Spanisch, Italienisch, Portugiesisch, Niederländisch, Bulgarisch und Tschechisch. Weitere Sprachen folgen bald."
+      },
+      {
+        "question": "Kann ich meine Teammitglieder hinzufügen?",
+        "answer": "Ja! FleetKeeper unterstützt mehrere Benutzerrollen: Admin (voller Zugriff), Manager (Fahrzeuge, Fahrer, Termine verwalten) und Fahrer (nur Ansicht für eigene Daten). Laden Sie Teammitglieder direkt aus der App ein."
+      },
+      {
+        "question": "Kann ich mein Abonnement jederzeit kündigen?",
+        "answer": "Ja, Sie können Ihr Abonnement jederzeit kündigen. Es gibt keine langfristigen Verträge oder Kündigungsgebühren. Ihre Daten bleiben bis zum Ende des Abrechnungszeitraums zugänglich."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Bereit, Nie Wieder Eine Frist Zu Verpassen?",
+    "description": "Schließen Sie sich Tausenden von Flottenmanagern an, die FleetKeeper vertrauen, um ihre Betriebe konform zu halten.",
+    "button": "Kostenlose App Herunterladen",
+    "note": "Kostenlos für Flotten bis 5 Fahrzeuge. Keine Kreditkarte erforderlich."
+  },
+  "footer": {
+    "tagline": "Verpassen Sie nie eine Frist.",
+    "product": "Produkt",
+    "legal": "Rechtliches",
+    "support": "Support",
+    "privacyPolicy": "Datenschutzrichtlinie",
+    "termsOfService": "Nutzungsbedingungen",
+    "cookiePolicy": "Cookie-Richtlinie",
+    "gdpr": "DSGVO",
+    "contactUs": "Kontakt",
+    "copyright": "© 2026 FleetKeeper. Alle Rechte vorbehalten."
+  },
+  "cookie": {
+    "message": "Wir verwenden Cookies, um Ihre Erfahrung zu verbessern. Durch die weitere Nutzung dieser Website stimmen Sie unserer",
+    "link": "Cookie-Richtlinie",
+    "acceptAll": "Alle Akzeptieren",
+    "essentialOnly": "Nur Notwendige"
+  },
+  "download": {
+    "title": "FleetKeeper Herunterladen",
+    "description": "Holen Sie sich die App auf Ihr Gerät und verpassen Sie nie wieder eine Frist.",
+    "detecting": "Gerät wird erkannt...",
+    "redirectingIos": "Weiterleitung zum App Store...",
+    "redirectingAndroid": "Weiterleitung zu Google Play...",
+    "chooseplatform": "Wählen Sie Ihre Plattform",
+    "iosComingSoon": "iOS App Store Link kommt bald",
+    "androidComingSoon": "Google Play Link kommt bald",
+    "downloadIos": "Für iOS herunterladen",
+    "downloadAndroid": "Für Android herunterladen",
+    "notRedirecting": "Keine Weiterleitung?",
+    "goBack": "Zurück zur Startseite"
+  },
+  "app": {
+    "dashboard": "Dashboard",
+    "expired": "Abgelaufen",
+    "expiringSoon": "Läuft Bald Ab",
+    "valid": "Gültig",
+    "days": "Tage"
+  }
+}

@@ -1,0 +1,253 @@
+{
+  "lang": "fr",
+  "langName": "Français",
+  "meta": {
+    "title": "FleetKeeper - Ne Manquez Jamais une Échéance | Application de Gestion des Expirations de Flotte",
+    "description": "FleetKeeper aide les entreprises de transport à suivre les contrôles techniques, permis de conduire, renouvellements d'assurance et plus de 100 types d'expirations. Recevez des notifications intelligentes avant les échéances. Gratuit pour les petites flottes."
+  },
+  "nav": {
+    "features": "Fonctionnalités",
+    "howItWorks": "Comment Ça Marche",
+    "pricing": "Tarifs",
+    "faq": "FAQ",
+    "download": "Télécharger l'App"
+  },
+  "hero": {
+    "badge": "Maintenant disponible sur iOS et Android",
+    "title": "Ne Manquez Plus Jamais une",
+    "titleHighlight": "Échéance",
+    "titleEnd": "",
+    "description": "Suivez les contrôles techniques, permis de conduire, renouvellements d'assurance et plus de 100 types d'expirations. Recevez des notifications intelligentes avant les échéances. Restez conforme, évitez les amendes.",
+    "downloadFree": "Télécharger Gratuitement",
+    "seeHowItWorks": "Voir Comment Ça Marche",
+    "stats": {
+      "expirationTypes": "Types d'Expiration",
+      "languages": "Langues",
+      "freeForSmallFleets": "Pour Petites Flottes"
+    }
+  },
+  "trust": {
+    "text": "Approuvé par les entreprises de transport à travers l'Europe",
+    "gdpr": "Conforme RGPD",
+    "secure": "Données Sécurisées",
+    "languages": "12 Langues",
+    "uptime": "99.9% Disponibilité"
+  },
+  "features": {
+    "badge": "Fonctionnalités",
+    "title": "Tout Ce Dont Vous Avez Besoin Pour",
+    "titleHighlight": "Rester Conforme",
+    "description": "FleetKeeper fournit des outils complets pour gérer toutes les dates d'expiration de votre flotte en un seul endroit.",
+    "items": {
+      "tracking": {
+        "title": "Suivi des Expirations",
+        "description": "Suivez plus de 100 types d'expirations pour les véhicules, les conducteurs et les documents d'entreprise. Ne perdez jamais de vue les échéances importantes."
+      },
+      "notifications": {
+        "title": "Notifications Intelligentes",
+        "description": "Recevez des alertes push et e-mail à intervalles personnalisables : 60, 30, 14, 7, 3 et 1 jour avant l'expiration."
+      },
+      "vehicles": {
+        "title": "Gestion des Véhicules",
+        "description": "Registre complet des véhicules avec spécifications techniques, photos et tous les termes d'expiration liés dans une seule vue."
+      },
+      "drivers": {
+        "title": "Gestion des Conducteurs",
+        "description": "Suivez les permis de conduire, cartes de conducteur, certifications ADR, examens médicaux et qualifications professionnelles."
+      },
+      "documents": {
+        "title": "Stockage de Documents",
+        "description": "Joignez des photos et des numérisations de certificats, licences et documents directement aux termes d'expiration."
+      },
+      "roles": {
+        "title": "Accès Basé sur les Rôles",
+        "description": "Rôles Admin, Manager et Conducteur avec les permissions appropriées. Gardez vos données sécurisées et organisées."
+      }
+    }
+  },
+  "expirationTypes": {
+    "badge": "Complet",
+    "title": "Suivez",
+    "titleHighlight": "Chaque Expiration",
+    "titleEnd": "Qui Compte",
+    "description": "Des contrôles techniques aux certifications des conducteurs, FleetKeeper couvre tous vos besoins de conformité.",
+    "vehicle": {
+      "title": "Termes Véhicules",
+      "count": "45+ types",
+      "items": ["Contrôle Technique", "Assurance RC", "Assurance Tous Risques", "Calibrage Tachygraphe", "Certificat ADR", "Vérification Limiteur Vitesse", "Extincteur", "Et 38 de plus..."]
+    },
+    "driver": {
+      "title": "Termes Conducteurs",
+      "count": "30+ types",
+      "items": ["Permis de Conduire", "Carte Conducteur (Qualification)", "Licence ADR", "Certificat Médical", "Évaluation Psychologique", "Permis de Travail", "Contrat de Travail", "Et 23 de plus..."]
+    },
+    "company": {
+      "title": "Termes Entreprise",
+      "count": "25+ types",
+      "items": ["Licence de Transport", "Autorisation d'Exploitation", "Assurance Responsabilité", "Autorisations CEMT", "Certifications ISO", "Contrats de Service", "Contrats de Location", "Et 18 de plus..."]
+    }
+  },
+  "howItWorks": {
+    "badge": "Simple",
+    "title": "Commencez en",
+    "titleHighlight": "3 Étapes Simples",
+    "description": "Configurez votre gestion de flotte en minutes, pas en heures. Aucune configuration complexe nécessaire.",
+    "steps": {
+      "download": {
+        "title": "Télécharger et S'inscrire",
+        "description": "Obtenez FleetKeeper sur l'App Store ou Google Play. Créez votre compte et entreprise en moins d'une minute."
+      },
+      "addFleet": {
+        "title": "Ajouter Votre Flotte",
+        "description": "Ajoutez vos véhicules, conducteurs et leurs dates d'expiration. Joignez des documents et définissez les préférences de notification."
+      },
+      "stayNotified": {
+        "title": "Restez Informé",
+        "description": "Recevez des alertes automatiques avant les expirations. Agissez et renouvelez à temps, à chaque fois."
+      }
+    }
+  },
+  "pricing": {
+    "badge": "Tarifs",
+    "title": "Tarifs",
+    "titleHighlight": "Simples et Transparents",
+    "description": "Commencez gratuitement et évoluez avec votre flotte. Pas de frais cachés, annulez à tout moment.",
+    "popular": "Le Plus Populaire",
+    "perMonth": "/mois",
+    "getStartedFree": "Commencer Gratuitement",
+    "startFreeTrial": "Démarrer l'Essai Gratuit",
+    "contactSales": "Contacter les Ventes",
+    "plans": {
+      "starter": {
+        "name": "Starter",
+        "description": "Parfait pour les petites flottes",
+        "price": "€0",
+        "features": ["Jusqu'à 5 véhicules", "Jusqu'à 3 utilisateurs", "Tous les types d'expiration", "Notifications push", "Stockage de documents"]
+      },
+      "professional": {
+        "name": "Professional",
+        "description": "Pour les entreprises en croissance",
+        "price": "€29",
+        "features": ["Jusqu'à 25 véhicules", "Jusqu'à 10 utilisateurs", "Tous les types d'expiration", "Notifications push + e-mail", "Support prioritaire", "Rapports avancés"]
+      },
+      "business": {
+        "name": "Business",
+        "description": "Pour les flottes plus grandes",
+        "price": "€79",
+        "features": ["Jusqu'à 100 véhicules", "Jusqu'à 25 utilisateurs", "Tous les types d'expiration", "Notifications push + e-mail", "Support dédié", "Intégrations personnalisées"]
+      },
+      "enterprise": {
+        "name": "Enterprise",
+        "description": "Pour les grandes organisations",
+        "price": "€199+",
+        "features": ["Véhicules illimités", "Utilisateurs illimités", "Option marque blanche", "Accès API", "Garantie SLA", "Gestionnaire de compte"]
+      }
+    }
+  },
+  "testimonials": {
+    "badge": "Témoignages",
+    "title": "Adoré par les",
+    "titleHighlight": "Gestionnaires de Flotte",
+    "items": [
+      {
+        "text": "FleetKeeper nous a sauvé d'une amende de €500 le mois dernier. Nous aurions manqué notre échéance de contrôle technique sans la notification.",
+        "author": "Mihai C.",
+        "role": "Gestionnaire de Flotte, 15 véhicules"
+      },
+      {
+        "text": "Enfin, toutes nos dates d'expiration en un seul endroit. L'application mobile est si facile à utiliser que même nos conducteurs plus âgés l'adorent.",
+        "author": "Anna S.",
+        "role": "Directrice des Opérations, 45 véhicules"
+      },
+      {
+        "text": "Le système de notifications est exactement ce dont nous avions besoin. Les notifications push et e-mails garantissent que rien ne passe à travers.",
+        "author": "Piotr K.",
+        "role": "Propriétaire, 8 véhicules"
+      }
+    ]
+  },
+  "faq": {
+    "badge": "FAQ",
+    "title": "Questions",
+    "titleHighlight": "Fréquentes",
+    "items": [
+      {
+        "question": "Qu'est-ce que FleetKeeper ?",
+        "answer": "FleetKeeper est une application mobile conçue pour les entreprises de transport pour suivre et gérer les dates d'expiration des véhicules, conducteurs et documents d'entreprise. Elle envoie des notifications intelligentes avant les échéances pour vous aider à rester conforme et éviter les amendes."
+      },
+      {
+        "question": "FleetKeeper est-il vraiment gratuit ?",
+        "answer": "Oui ! Notre plan Starter est entièrement gratuit pour les petites flottes jusqu'à 5 véhicules et 3 utilisateurs. Vous avez accès à tous les types d'expiration et aux notifications push. Pas de carte bancaire requise."
+      },
+      {
+        "question": "Quels types d'expirations puis-je suivre ?",
+        "answer": "FleetKeeper prend en charge plus de 100 types d'expirations incluant les contrôles techniques, assurances (RC, tous risques), calibrages de tachygraphe, permis de conduire, cartes de conducteur, certificats ADR, examens médicaux, autorisations d'entreprise et bien plus."
+      },
+      {
+        "question": "Comment fonctionnent les notifications ?",
+        "answer": "FleetKeeper envoie des notifications push et e-mails à intervalles configurables : 60, 30, 14, 7, 3 et 1 jour avant l'expiration, plus des rappels pour les éléments en retard. Vous pouvez personnaliser quelles notifications vous recevez et quand."
+      },
+      {
+        "question": "Mes données sont-elles sécurisées ?",
+        "answer": "Absolument. Nous utilisons un chiffrement de niveau entreprise et une architecture multi-tenant pour garantir que vos données sont isolées et protégées. Nous sommes entièrement conformes au RGPD et ne partageons jamais vos données avec des tiers."
+      },
+      {
+        "question": "Puis-je utiliser FleetKeeper dans ma langue ?",
+        "answer": "Oui ! FleetKeeper prend en charge 12 langues : anglais, roumain, hongrois, polonais, allemand, français, espagnol, italien, portugais, néerlandais, bulgare et tchèque. Plus de langues à venir bientôt."
+      },
+      {
+        "question": "Puis-je ajouter les membres de mon équipe ?",
+        "answer": "Oui ! FleetKeeper prend en charge plusieurs rôles utilisateur : Admin (accès complet), Manager (gérer véhicules, conducteurs, termes) et Conducteur (vue uniquement pour leurs propres données). Invitez les membres de l'équipe directement depuis l'application."
+      },
+      {
+        "question": "Puis-je annuler mon abonnement à tout moment ?",
+        "answer": "Oui, vous pouvez annuler votre abonnement à tout moment. Il n'y a pas de contrats à long terme ni de frais d'annulation. Vos données restent accessibles jusqu'à la fin de la période de facturation."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Prêt à Ne Plus Jamais Manquer une Échéance ?",
+    "description": "Rejoignez des milliers de gestionnaires de flotte qui font confiance à FleetKeeper pour maintenir leurs opérations conformes.",
+    "button": "Télécharger l'App Gratuite",
+    "note": "Gratuit pour les flottes jusqu'à 5 véhicules. Pas de carte bancaire requise."
+  },
+  "footer": {
+    "tagline": "Ne manquez jamais une échéance.",
+    "product": "Produit",
+    "legal": "Légal",
+    "support": "Support",
+    "privacyPolicy": "Politique de Confidentialité",
+    "termsOfService": "Conditions d'Utilisation",
+    "cookiePolicy": "Politique des Cookies",
+    "gdpr": "RGPD",
+    "contactUs": "Nous Contacter",
+    "copyright": "© 2026 FleetKeeper. Tous droits réservés."
+  },
+  "cookie": {
+    "message": "Nous utilisons des cookies pour améliorer votre expérience. En continuant à utiliser ce site, vous acceptez notre",
+    "link": "Politique des Cookies",
+    "acceptAll": "Tout Accepter",
+    "essentialOnly": "Essentiels Uniquement"
+  },
+  "download": {
+    "title": "Télécharger FleetKeeper",
+    "description": "Obtenez l'application sur votre appareil et ne manquez plus jamais une échéance.",
+    "detecting": "Détection de votre appareil...",
+    "redirectingIos": "Redirection vers l'App Store...",
+    "redirectingAndroid": "Redirection vers Google Play...",
+    "chooseplatform": "Choisissez votre plateforme",
+    "iosComingSoon": "Lien App Store bientôt disponible",
+    "androidComingSoon": "Lien Google Play bientôt disponible",
+    "downloadIos": "Télécharger pour iOS",
+    "downloadAndroid": "Télécharger pour Android",
+    "notRedirecting": "Pas de redirection ?",
+    "goBack": "Retour à l'accueil"
+  },
+  "app": {
+    "dashboard": "Tableau de Bord",
+    "expired": "Expiré",
+    "expiringSoon": "Expire Bientôt",
+    "valid": "Valide",
+    "days": "jours"
+  }
+}

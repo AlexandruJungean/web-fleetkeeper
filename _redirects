@@ -1,0 +1,13 @@
+# FleetKeeper - Netlify Redirects
+# https://docs.netlify.com/routing/redirects/
+
+# App store redirects (update with actual URLs when available)
+# /app/ios               https://apps.apple.com/app/fleetkeeper/id... 302
+# /app/android           https://play.google.com/store/apps/details?id=com.fleetkeeper.app 302
+
+# Short URL for download page
+/get                    /download           302
+/app                    /download           302
+
+# 404 fallback (handled by netlify.toml)
+# /*                     /404.html           404

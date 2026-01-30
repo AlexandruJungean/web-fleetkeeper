@@ -1,0 +1,253 @@
+{
+  "lang": "en",
+  "langName": "English",
+  "meta": {
+    "title": "FleetKeeper - Never Miss a Deadline | Fleet Expiration Management App",
+    "description": "FleetKeeper helps transportation companies track vehicle inspections, driver licenses, insurance renewals, and 100+ expiration types. Get smart notifications before deadlines. Free for small fleets."
+  },
+  "nav": {
+    "features": "Features",
+    "howItWorks": "How It Works",
+    "pricing": "Pricing",
+    "faq": "FAQ",
+    "download": "Download App"
+  },
+  "hero": {
+    "badge": "Now Available for iOS & Android",
+    "title": "Never Miss a",
+    "titleHighlight": "Deadline",
+    "titleEnd": "Again",
+    "description": "Track vehicle inspections, driver licenses, insurance renewals, and 100+ expiration types. Get smart notifications before deadlines. Stay compliant, avoid fines.",
+    "downloadFree": "Download Free",
+    "seeHowItWorks": "See How It Works",
+    "stats": {
+      "expirationTypes": "Expiration Types",
+      "languages": "Languages",
+      "freeForSmallFleets": "For Small Fleets"
+    }
+  },
+  "trust": {
+    "text": "Trusted by transportation companies across Europe",
+    "gdpr": "GDPR Compliant",
+    "secure": "Secure Data",
+    "languages": "12 Languages",
+    "uptime": "99.9% Uptime"
+  },
+  "features": {
+    "badge": "Features",
+    "title": "Everything You Need to",
+    "titleHighlight": "Stay Compliant",
+    "description": "FleetKeeper provides comprehensive tools to manage all your fleet's expiration dates in one place.",
+    "items": {
+      "tracking": {
+        "title": "Expiration Tracking",
+        "description": "Track 100+ types of expirations for vehicles, drivers, and company documents. Never lose track of important deadlines."
+      },
+      "notifications": {
+        "title": "Smart Notifications",
+        "description": "Get push and email alerts at customizable intervals: 60, 30, 14, 7, 3, and 1 day before expiration."
+      },
+      "vehicles": {
+        "title": "Vehicle Management",
+        "description": "Complete vehicle registry with technical specs, photos, and all linked expiration terms in one view."
+      },
+      "drivers": {
+        "title": "Driver Management",
+        "description": "Track driver licenses, CPC cards, ADR certifications, medical exams, and professional qualifications."
+      },
+      "documents": {
+        "title": "Document Storage",
+        "description": "Attach photos and scans of certificates, licenses, and documents directly to expiration terms."
+      },
+      "roles": {
+        "title": "Role-Based Access",
+        "description": "Admin, Manager, and Driver roles with appropriate permissions. Keep your data secure and organized."
+      }
+    }
+  },
+  "expirationTypes": {
+    "badge": "Comprehensive",
+    "title": "Track",
+    "titleHighlight": "Every Expiration",
+    "titleEnd": "That Matters",
+    "description": "From vehicle inspections to driver certifications, FleetKeeper covers all your compliance needs.",
+    "vehicle": {
+      "title": "Vehicle Terms",
+      "count": "45+ types",
+      "items": ["ITP / Technical Inspection", "RCA Insurance", "CASCO Insurance", "Tachograph Calibration", "ADR Certificate", "Speed Limiter Check", "Fire Extinguisher", "And 38 more..."]
+    },
+    "driver": {
+      "title": "Driver Terms",
+      "count": "30+ types",
+      "items": ["Driving License", "CPC Card (Driver Qualification)", "ADR License", "Medical Certificate", "Psychological Evaluation", "Work Permit", "Employment Contract", "And 23 more..."]
+    },
+    "company": {
+      "title": "Company Terms",
+      "count": "25+ types",
+      "items": ["Transport License", "Operating Permit", "Liability Insurance", "CEMT Permits", "ISO Certifications", "Service Contracts", "Lease Agreements", "And 18 more..."]
+    }
+  },
+  "howItWorks": {
+    "badge": "Simple",
+    "title": "Get Started in",
+    "titleHighlight": "3 Easy Steps",
+    "description": "Set up your fleet management in minutes, not hours. No complex configuration needed.",
+    "steps": {
+      "download": {
+        "title": "Download & Register",
+        "description": "Get FleetKeeper from the App Store or Google Play. Create your account and company in under a minute."
+      },
+      "addFleet": {
+        "title": "Add Your Fleet",
+        "description": "Add your vehicles, drivers, and their expiration dates. Attach documents and set notification preferences."
+      },
+      "stayNotified": {
+        "title": "Stay Notified",
+        "description": "Receive automatic alerts before expirations. Take action and renew on time, every time."
+      }
+    }
+  },
+  "pricing": {
+    "badge": "Pricing",
+    "title": "Simple,",
+    "titleHighlight": "Transparent Pricing",
+    "description": "Start free and scale as your fleet grows. No hidden fees, cancel anytime.",
+    "popular": "Most Popular",
+    "perMonth": "/month",
+    "getStartedFree": "Get Started Free",
+    "startFreeTrial": "Start Free Trial",
+    "contactSales": "Contact Sales",
+    "plans": {
+      "starter": {
+        "name": "Starter",
+        "description": "Perfect for small fleets",
+        "price": "€0",
+        "features": ["Up to 5 vehicles", "Up to 3 users", "All expiration types", "Push notifications", "Document storage"]
+      },
+      "professional": {
+        "name": "Professional",
+        "description": "For growing businesses",
+        "price": "€29",
+        "features": ["Up to 25 vehicles", "Up to 10 users", "All expiration types", "Push + Email notifications", "Priority support", "Advanced reports"]
+      },
+      "business": {
+        "name": "Business",
+        "description": "For larger fleets",
+        "price": "€79",
+        "features": ["Up to 100 vehicles", "Up to 25 users", "All expiration types", "Push + Email notifications", "Dedicated support", "Custom integrations"]
+      },
+      "enterprise": {
+        "name": "Enterprise",
+        "description": "For large organizations",
+        "price": "€199+",
+        "features": ["Unlimited vehicles", "Unlimited users", "White-label option", "API access", "SLA guarantee", "Account manager"]
+      }
+    }
+  },
+  "testimonials": {
+    "badge": "Testimonials",
+    "title": "Loved by",
+    "titleHighlight": "Fleet Managers",
+    "items": [
+      {
+        "text": "FleetKeeper saved us from a €500 fine last month. We would have missed our ITP deadline without the notification.",
+        "author": "Mihai C.",
+        "role": "Fleet Manager, 15 vehicles"
+      },
+      {
+        "text": "Finally, all our expiration dates in one place. The mobile app is so easy to use, even our older drivers love it.",
+        "author": "Anna S.",
+        "role": "Operations Director, 45 vehicles"
+      },
+      {
+        "text": "The notification system is exactly what we needed. Push notifications and emails make sure nothing slips through.",
+        "author": "Piotr K.",
+        "role": "Owner, 8 vehicles"
+      }
+    ]
+  },
+  "faq": {
+    "badge": "FAQ",
+    "title": "Frequently Asked",
+    "titleHighlight": "Questions",
+    "items": [
+      {
+        "question": "What is FleetKeeper?",
+        "answer": "FleetKeeper is a mobile app designed for transportation companies to track and manage expiration dates for vehicles, drivers, and company documents. It sends smart notifications before deadlines to help you stay compliant and avoid fines."
+      },
+      {
+        "question": "Is FleetKeeper really free?",
+        "answer": "Yes! Our Starter plan is completely free for small fleets with up to 5 vehicles and 3 users. You get access to all expiration types and push notifications. No credit card required."
+      },
+      {
+        "question": "What types of expirations can I track?",
+        "answer": "FleetKeeper supports 100+ expiration types including vehicle inspections (ITP), insurance (RCA, CASCO), tachograph calibrations, driver licenses, CPC cards, ADR certificates, medical exams, company permits, and many more."
+      },
+      {
+        "question": "How do notifications work?",
+        "answer": "FleetKeeper sends push notifications and emails at configurable intervals: 60, 30, 14, 7, 3, and 1 day before expiration, plus reminders for overdue items. You can customize which notifications you receive and when."
+      },
+      {
+        "question": "Is my data secure?",
+        "answer": "Absolutely. We use enterprise-grade encryption and multi-tenant architecture to ensure your data is isolated and protected. We're fully GDPR compliant and never share your data with third parties."
+      },
+      {
+        "question": "Can I use FleetKeeper in my language?",
+        "answer": "Yes! FleetKeeper supports 12 languages: English, Romanian, Hungarian, Polish, German, French, Spanish, Italian, Portuguese, Dutch, Bulgarian, and Czech. More languages coming soon."
+      },
+      {
+        "question": "Can I add my team members?",
+        "answer": "Yes! FleetKeeper supports multiple user roles: Admin (full access), Manager (manage vehicles, drivers, terms), and Driver (view-only for their own data). Invite team members directly from the app."
+      },
+      {
+        "question": "Can I cancel my subscription anytime?",
+        "answer": "Yes, you can cancel your subscription at any time. There are no long-term contracts or cancellation fees. Your data remains accessible until the end of your billing period."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Ready to Never Miss a Deadline?",
+    "description": "Join thousands of fleet managers who trust FleetKeeper to keep their operations compliant.",
+    "button": "Download Free App",
+    "note": "Free for fleets up to 5 vehicles. No credit card required."
+  },
+  "footer": {
+    "tagline": "Never miss a deadline.",
+    "product": "Product",
+    "legal": "Legal",
+    "support": "Support",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service",
+    "cookiePolicy": "Cookie Policy",
+    "gdpr": "GDPR",
+    "contactUs": "Contact Us",
+    "copyright": "© 2026 FleetKeeper. All rights reserved."
+  },
+  "cookie": {
+    "message": "We use cookies to improve your experience. By continuing to use this site, you agree to our",
+    "link": "Cookie Policy",
+    "acceptAll": "Accept All",
+    "essentialOnly": "Essential Only"
+  },
+  "download": {
+    "title": "Download FleetKeeper",
+    "description": "Get the app on your device and never miss a deadline again.",
+    "detecting": "Detecting your device...",
+    "redirectingIos": "Redirecting to App Store...",
+    "redirectingAndroid": "Redirecting to Google Play...",
+    "chooseplatform": "Choose your platform",
+    "iosComingSoon": "iOS App Store link coming soon",
+    "androidComingSoon": "Google Play link coming soon",
+    "downloadIos": "Download for iOS",
+    "downloadAndroid": "Download for Android",
+    "notRedirecting": "Not redirecting?",
+    "goBack": "Go back to homepage"
+  },
+  "app": {
+    "dashboard": "Dashboard",
+    "expired": "Expired",
+    "expiringSoon": "Expiring Soon",
+    "valid": "Valid",
+    "days": "days"
+  }
+}

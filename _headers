@@ -1,0 +1,49 @@
+# Netlify/Cloudflare headers file
+# https://docs.netlify.com/routing/headers/
+
+# All pages
+/*
+  X-Frame-Options: SAMEORIGIN
+  X-XSS-Protection: 1; mode=block
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: camera=(), microphone=(), geolocation=(), payment=()
+
+# HTML pages - no cache
+/*.html
+  Cache-Control: no-cache, no-store, must-revalidate
+
+# CSS files
+/css/*
+  Cache-Control: public, max-age=2592000
+
+# JavaScript files
+/js/*
+  Cache-Control: public, max-age=2592000
+
+# Images
+/images/*
+  Cache-Control: public, max-age=31536000, immutable
+
+# Fonts
+/fonts/*
+  Cache-Control: public, max-age=31536000, immutable
+  Access-Control-Allow-Origin: *
+
+# Sitemap and robots
+/sitemap.xml
+  Cache-Control: public, max-age=86400
+  Content-Type: application/xml
+
+/robots.txt
+  Cache-Control: public, max-age=86400
+  Content-Type: text/plain
+
+/llms.txt
+  Cache-Control: public, max-age=86400
+  Content-Type: text/plain
+
+# Web manifest
+/site.webmanifest
+  Cache-Control: public, max-age=86400
+  Content-Type: application/manifest+json

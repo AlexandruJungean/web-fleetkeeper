@@ -1,0 +1,976 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <!-- Primary Meta Tags -->
+    <title>FleetKeeper - Never Miss a Deadline | Fleet Expiration Management App</title>
+    <meta name="title" content="FleetKeeper - Never Miss a Deadline | Fleet Expiration Management App">
+    <meta name="description" content="FleetKeeper helps transportation companies track vehicle inspections, driver licenses, insurance renewals, and 100+ expiration types. Get smart notifications before deadlines. Free for small fleets.">
+    <meta name="keywords" content="fleet management, expiration tracking, vehicle inspection, ITP reminder, RCA insurance, driver license tracking, fleet compliance, transportation software, tachograph calibration">
+    <meta name="author" content="FleetKeeper">
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="English">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://fleetkeeper.app/">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://fleetkeeper.app/">
+    <meta property="og:title" content="FleetKeeper - Never Miss a Deadline">
+    <meta property="og:description" content="Track all fleet expirations in one place. Smart notifications for vehicle inspections, driver licenses, insurance renewals, and more.">
+    <meta property="og:image" content="https://fleetkeeper.app/images/og-image.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:site_name" content="FleetKeeper">
+    <meta property="og:locale" content="en_US">
+    
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://fleetkeeper.app/">
+    <meta name="twitter:title" content="FleetKeeper - Never Miss a Deadline">
+    <meta name="twitter:description" content="Track all fleet expirations in one place. Smart notifications for vehicle inspections, driver licenses, insurance renewals, and more.">
+    <meta name="twitter:image" content="https://fleetkeeper.app/images/og-image.png">
+    
+    <!-- App Links -->
+    <meta property="al:ios:app_store_id" content="XXXXXXXXXX">
+    <meta property="al:ios:app_name" content="FleetKeeper">
+    <meta property="al:android:package" content="com.fleetkeeper.app">
+    <meta property="al:android:app_name" content="FleetKeeper">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <meta name="theme-color" content="#2563EB">
+    <meta name="msapplication-TileColor" content="#2563EB">
+    
+    <!-- Preconnect for performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="/css/style.css">
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "SoftwareApplication",
+        "name": "FleetKeeper",
+        "operatingSystem": ["iOS", "Android"],
+        "applicationCategory": "BusinessApplication",
+        "description": "Fleet expiration management app for transportation companies. Track vehicle inspections, driver licenses, insurance renewals, and 100+ expiration types with smart notifications.",
+        "url": "https://fleetkeeper.app",
+        "downloadUrl": "https://fleetkeeper.app/download",
+        "screenshot": "https://fleetkeeper.app/images/app-screenshot.png",
+        "softwareVersion": "1.0",
+        "datePublished": "2026-01-01",
+        "offers": [
+            {
+                "@type": "Offer",
+                "name": "Starter",
+                "price": "0",
+                "priceCurrency": "EUR",
+                "description": "Free plan for small fleets up to 5 vehicles"
+            },
+            {
+                "@type": "Offer",
+                "name": "Professional",
+                "price": "29",
+                "priceCurrency": "EUR",
+                "description": "For growing fleets with 6-25 vehicles"
+            },
+            {
+                "@type": "Offer",
+                "name": "Business",
+                "price": "79",
+                "priceCurrency": "EUR",
+                "description": "For larger fleets with 26-100 vehicles"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.8",
+            "ratingCount": "150"
+        },
+        "author": {
+            "@type": "Organization",
+            "name": "FleetKeeper",
+            "url": "https://fleetkeeper.app"
+        }
+    }
+    </script>
+    
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "FleetKeeper",
+        "url": "https://fleetkeeper.app",
+        "logo": "https://fleetkeeper.app/images/logo.png",
+        "description": "Fleet expiration management software for transportation companies",
+        "email": "support@fleetkeeper.app",
+        "sameAs": [],
+        "contactPoint": {
+            "@type": "ContactPoint",
+            "email": "support@fleetkeeper.app",
+            "contactType": "customer support"
+        }
+    }
+    </script>
+    
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "What is FleetKeeper?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "FleetKeeper is a mobile app designed for transportation companies to track and manage expiration dates for vehicles, drivers, and company documents. It sends smart notifications before deadlines to help you stay compliant and avoid fines."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Is FleetKeeper free?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes! FleetKeeper offers a free Starter plan for small fleets with up to 5 vehicles and 3 users. Paid plans are available for larger fleets starting at €29/month."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What types of expirations can FleetKeeper track?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "FleetKeeper can track over 100 types of expirations including vehicle inspections (ITP), insurance policies (RCA, CASCO), tachograph calibrations, driver licenses, ADR certificates, medical exams, company permits, and much more."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "How do notifications work?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "FleetKeeper sends push notifications and emails at configurable intervals: 60, 30, 14, 7, 3, and 1 day before expiration, plus reminders for overdue items. You can customize which notifications you receive."
+                }
+            }
+        ]
+    }
+    </script>
+</head>
+<body>
+    <!-- Cookie Consent Banner -->
+    <div id="cookie-consent" class="cookie-banner" style="display: none;">
+        <div class="cookie-content">
+            <p><span data-i18n="cookie.message">We use cookies to improve your experience. By continuing to use this site, you agree to our</span> <a href="/cookie-policy" data-i18n="cookie.link">Cookie Policy</a>.</p>
+            <div class="cookie-buttons">
+                <button id="cookie-accept" class="btn btn-primary btn-sm" data-i18n="cookie.acceptAll">Accept All</button>
+                <button id="cookie-essential" class="btn btn-outline btn-sm" data-i18n="cookie.essentialOnly">Essential Only</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="/" class="nav-logo">
+                <svg class="logo-icon" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect width="32" height="32" rx="8" fill="#2563EB"/>
+                    <path d="M8 12H24V14H8V12ZM6 16H26V18H6V16ZM10 20H22V22H10V20ZM12 8H20V10H12V8Z" fill="white"/>
+                    <circle cx="10" cy="22" r="2" fill="white"/>
+                    <circle cx="22" cy="22" r="2" fill="white"/>
+                </svg>
+                <span class="logo-text">FleetKeeper</span>
+            </a>
+            
+            <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item"><a href="#features" class="nav-link" data-i18n="nav.features">Features</a></li>
+                <li class="nav-item"><a href="#how-it-works" class="nav-link" data-i18n="nav.howItWorks">How It Works</a></li>
+                <li class="nav-item"><a href="#pricing" class="nav-link" data-i18n="nav.pricing">Pricing</a></li>
+                <li class="nav-item"><a href="#faq" class="nav-link" data-i18n="nav.faq">FAQ</a></li>
+                <li class="nav-item nav-lang">
+                    <select id="language-selector" class="lang-select" aria-label="Select language">
+                        <option value="en">English</option>
+                        <option value="ro">Română</option>
+                        <option value="de">Deutsch</option>
+                        <option value="hu">Magyar</option>
+                        <option value="pl">Polski</option>
+                        <option value="fr">Français</option>
+                        <option value="es">Español</option>
+                        <option value="it">Italiano</option>
+                        <option value="pt">Português</option>
+                        <option value="nl">Nederlands</option>
+                        <option value="bg">Български</option>
+                        <option value="cs">Čeština</option>
+                    </select>
+                </li>
+                <li class="nav-item nav-cta">
+                    <a href="/download" class="btn btn-primary" data-i18n="nav.download">Download App</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <div class="hero-badge">
+                        <span class="badge">🚀 <span data-i18n="hero.badge">Now Available for iOS & Android</span></span>
+                    </div>
+                    <h1 class="hero-title"><span data-i18n="hero.title">Never Miss a</span> <span class="text-gradient" data-i18n="hero.titleHighlight">Deadline</span> <span data-i18n="hero.titleEnd">Again</span></h1>
+                    <p class="hero-description" data-i18n="hero.description">
+                        Track vehicle inspections, driver licenses, insurance renewals, and 100+ expiration types. 
+                        Get smart notifications before deadlines. Stay compliant, avoid fines.
+                    </p>
+                    <div class="hero-cta">
+                        <a href="/download" class="btn btn-primary btn-lg">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+                                <polyline points="7 10 12 15 17 10"/>
+                                <line x1="12" y1="15" x2="12" y2="3"/>
+                            </svg>
+                            <span data-i18n="hero.downloadFree">Download Free</span>
+                        </a>
+                        <a href="#how-it-works" class="btn btn-outline btn-lg" data-i18n="hero.seeHowItWorks">See How It Works</a>
+                    </div>
+                    <div class="hero-stats">
+                        <div class="stat">
+                            <span class="stat-number">100+</span>
+                            <span class="stat-label" data-i18n="hero.stats.expirationTypes">Expiration Types</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">12</span>
+                            <span class="stat-label" data-i18n="hero.stats.languages">Languages</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number" data-i18n="pricing.plans.starter.price">Free</span>
+                            <span class="stat-label" data-i18n="hero.stats.freeForSmallFleets">For Small Fleets</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="phone-mockup">
+                        <div class="phone-frame">
+                            <div class="phone-screen">
+                                <div class="app-preview">
+                                    <div class="app-header">
+                                        <span class="app-title">Dashboard</span>
+                                    </div>
+                                    <div class="app-cards">
+                                        <div class="preview-card card-expired">
+                                            <span class="card-icon">⚠️</span>
+                                            <span class="card-text">3 Expired</span>
+                                        </div>
+                                        <div class="preview-card card-expiring">
+                                            <span class="card-icon">🔔</span>
+                                            <span class="card-text">5 Expiring Soon</span>
+                                        </div>
+                                        <div class="preview-card card-valid">
+                                            <span class="card-icon">✓</span>
+                                            <span class="card-text">42 Valid</span>
+                                        </div>
+                                    </div>
+                                    <div class="app-list">
+                                        <div class="list-item item-warning">
+                                            <span class="item-title">ITP Inspection</span>
+                                            <span class="item-badge">7 days</span>
+                                        </div>
+                                        <div class="list-item item-danger">
+                                            <span class="item-title">RCA Insurance</span>
+                                            <span class="item-badge">3 days</span>
+                                        </div>
+                                        <div class="list-item item-success">
+                                            <span class="item-title">Tachograph</span>
+                                            <span class="item-badge">45 days</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="phone-glow"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-bg">
+                <div class="hero-gradient"></div>
+                <div class="hero-pattern"></div>
+            </div>
+        </section>
+
+        <!-- Logos/Trust Section -->
+        <section class="trust-section">
+            <div class="container">
+                <p class="trust-text">Trusted by transportation companies across Europe</p>
+                <div class="trust-badges">
+                    <div class="trust-badge">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                            <path d="M9 12l2 2 4-4"/>
+                        </svg>
+                        <span>GDPR Compliant</span>
+                    </div>
+                    <div class="trust-badge">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="3" y="11" width="18" height="11" rx="2" ry="2"/>
+                            <path d="M7 11V7a5 5 0 0 1 10 0v4"/>
+                        </svg>
+                        <span>Secure Data</span>
+                    </div>
+                    <div class="trust-badge">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="10"/>
+                            <line x1="2" y1="12" x2="22" y2="12"/>
+                            <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+                        </svg>
+                        <span>12 Languages</span>
+                    </div>
+                    <div class="trust-badge">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
+                            <polyline points="22 4 12 14.01 9 11.01"/>
+                        </svg>
+                        <span>99.9% Uptime</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section class="features" id="features">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-badge">Features</span>
+                    <h2 class="section-title">Everything You Need to <span class="text-gradient">Stay Compliant</span></h2>
+                    <p class="section-description">
+                        FleetKeeper provides comprehensive tools to manage all your fleet's expiration dates in one place.
+                    </p>
+                </div>
+                
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon icon-blue">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/>
+                                <line x1="16" y1="2" x2="16" y2="6"/>
+                                <line x1="8" y1="2" x2="8" y2="6"/>
+                                <line x1="3" y1="10" x2="21" y2="10"/>
+                            </svg>
+                        </div>
+                        <h3 class="feature-title">Expiration Tracking</h3>
+                        <p class="feature-description">
+                            Track 100+ types of expirations for vehicles, drivers, and company documents. Never lose track of important deadlines.
+                        </p>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <div class="feature-icon icon-amber">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"/>
+                                <path d="M13.73 21a2 2 0 0 1-3.46 0"/>
+                            </svg>
+                        </div>
+                        <h3 class="feature-title">Smart Notifications</h3>
+                        <p class="feature-description">
+                            Get push and email alerts at customizable intervals: 60, 30, 14, 7, 3, and 1 day before expiration.
+                        </p>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <div class="feature-icon icon-green">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <rect x="1" y="3" width="15" height="13"/>
+                                <polygon points="16 8 20 8 23 11 23 16 16 16 16 8"/>
+                                <circle cx="5.5" cy="18.5" r="2.5"/>
+                                <circle cx="18.5" cy="18.5" r="2.5"/>
+                            </svg>
+                        </div>
+                        <h3 class="feature-title">Vehicle Management</h3>
+                        <p class="feature-description">
+                            Complete vehicle registry with technical specs, photos, and all linked expiration terms in one view.
+                        </p>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <div class="feature-icon icon-purple">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+                                <circle cx="9" cy="7" r="4"/>
+                                <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
+                                <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+                            </svg>
+                        </div>
+                        <h3 class="feature-title">Driver Management</h3>
+                        <p class="feature-description">
+                            Track driver licenses, CPC cards, ADR certifications, medical exams, and professional qualifications.
+                        </p>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <div class="feature-icon icon-red">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+                                <polyline points="14 2 14 8 20 8"/>
+                                <line x1="16" y1="13" x2="8" y2="13"/>
+                                <line x1="16" y1="17" x2="8" y2="17"/>
+                            </svg>
+                        </div>
+                        <h3 class="feature-title">Document Storage</h3>
+                        <p class="feature-description">
+                            Attach photos and scans of certificates, licenses, and documents directly to expiration terms.
+                        </p>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <div class="feature-icon icon-teal">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                            </svg>
+                        </div>
+                        <h3 class="feature-title">Role-Based Access</h3>
+                        <p class="feature-description">
+                            Admin, Manager, and Driver roles with appropriate permissions. Keep your data secure and organized.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Expiration Types Section -->
+        <section class="expiration-types">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-badge">Comprehensive</span>
+                    <h2 class="section-title">Track <span class="text-gradient">Every Expiration</span> That Matters</h2>
+                    <p class="section-description">
+                        From vehicle inspections to driver certifications, FleetKeeper covers all your compliance needs.
+                    </p>
+                </div>
+                
+                <div class="types-grid">
+                    <div class="type-category">
+                        <div class="type-header">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <rect x="1" y="3" width="15" height="13"/>
+                                <polygon points="16 8 20 8 23 11 23 16 16 16 16 8"/>
+                                <circle cx="5.5" cy="18.5" r="2.5"/>
+                                <circle cx="18.5" cy="18.5" r="2.5"/>
+                            </svg>
+                            <h3>Vehicle Terms <span class="type-count">45+ types</span></h3>
+                        </div>
+                        <ul class="type-list">
+                            <li>ITP / Technical Inspection</li>
+                            <li>RCA Insurance</li>
+                            <li>CASCO Insurance</li>
+                            <li>Tachograph Calibration</li>
+                            <li>ADR Certificate</li>
+                            <li>Speed Limiter Check</li>
+                            <li>Fire Extinguisher</li>
+                            <li>And 38 more...</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="type-category">
+                        <div class="type-header">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/>
+                                <circle cx="12" cy="7" r="4"/>
+                            </svg>
+                            <h3>Driver Terms <span class="type-count">30+ types</span></h3>
+                        </div>
+                        <ul class="type-list">
+                            <li>Driving License</li>
+                            <li>CPC Card (Driver Qualification)</li>
+                            <li>ADR License</li>
+                            <li>Medical Certificate</li>
+                            <li>Psychological Evaluation</li>
+                            <li>Work Permit</li>
+                            <li>Employment Contract</li>
+                            <li>And 23 more...</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="type-category">
+                        <div class="type-header">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/>
+                                <polyline points="9 22 9 12 15 12 15 22"/>
+                            </svg>
+                            <h3>Company Terms <span class="type-count">25+ types</span></h3>
+                        </div>
+                        <ul class="type-list">
+                            <li>Transport License</li>
+                            <li>Operating Permit</li>
+                            <li>Liability Insurance</li>
+                            <li>CEMT Permits</li>
+                            <li>ISO Certifications</li>
+                            <li>Service Contracts</li>
+                            <li>Lease Agreements</li>
+                            <li>And 18 more...</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- How It Works Section -->
+        <section class="how-it-works" id="how-it-works">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-badge">Simple</span>
+                    <h2 class="section-title">Get Started in <span class="text-gradient">3 Easy Steps</span></h2>
+                    <p class="section-description">
+                        Set up your fleet management in minutes, not hours. No complex configuration needed.
+                    </p>
+                </div>
+                
+                <div class="steps-container">
+                    <div class="step">
+                        <div class="step-number">1</div>
+                        <div class="step-content">
+                            <h3 class="step-title">Download & Register</h3>
+                            <p class="step-description">
+                                Get FleetKeeper from the App Store or Google Play. Create your account and company in under a minute.
+                            </p>
+                        </div>
+                        <div class="step-visual">
+                            <div class="step-icon">
+                                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+                                    <polyline points="7 10 12 15 17 10"/>
+                                    <line x1="12" y1="15" x2="12" y2="3"/>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="step-connector">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <line x1="5" y1="12" x2="19" y2="12"/>
+                            <polyline points="12 5 19 12 12 19"/>
+                        </svg>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-number">2</div>
+                        <div class="step-content">
+                            <h3 class="step-title">Add Your Fleet</h3>
+                            <p class="step-description">
+                                Add your vehicles, drivers, and their expiration dates. Attach documents and set notification preferences.
+                            </p>
+                        </div>
+                        <div class="step-visual">
+                            <div class="step-icon">
+                                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <circle cx="12" cy="12" r="10"/>
+                                    <line x1="12" y1="8" x2="12" y2="16"/>
+                                    <line x1="8" y1="12" x2="16" y2="12"/>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="step-connector">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <line x1="5" y1="12" x2="19" y2="12"/>
+                            <polyline points="12 5 19 12 12 19"/>
+                        </svg>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-number">3</div>
+                        <div class="step-content">
+                            <h3 class="step-title">Stay Notified</h3>
+                            <p class="step-description">
+                                Receive automatic alerts before expirations. Take action and renew on time, every time.
+                            </p>
+                        </div>
+                        <div class="step-visual">
+                            <div class="step-icon">
+                                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"/>
+                                    <path d="M13.73 21a2 2 0 0 1-3.46 0"/>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Pricing Section -->
+        <section class="pricing" id="pricing">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-badge">Pricing</span>
+                    <h2 class="section-title">Simple, <span class="text-gradient">Transparent Pricing</span></h2>
+                    <p class="section-description">
+                        Start free and scale as your fleet grows. No hidden fees, cancel anytime.
+                    </p>
+                </div>
+                
+                <div class="pricing-grid">
+                    <div class="pricing-card">
+                        <div class="pricing-header">
+                            <h3 class="pricing-name">Starter</h3>
+                            <p class="pricing-description">Perfect for small fleets</p>
+                        </div>
+                        <div class="pricing-price">
+                            <span class="price-amount">€0</span>
+                            <span class="price-period">/month</span>
+                        </div>
+                        <ul class="pricing-features">
+                            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg> Up to 5 vehicles</li>
+                            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg> Up to 3 users</li>
+                            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg> All expiration types</li>
+                            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg> Push notifications</li>
+                            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg> Document storage</li>
+                        </ul>
+                        <a href="/download" class="btn btn-outline btn-block">Get Started Free</a>
+                    </div>
+                    
+                    <div class="pricing-card pricing-popular">
+                        <div class="popular-badge">Most Popular</div>
+                        <div class="pricing-header">
+                            <h3 class="pricing-name">Professional</h3>
+                            <p class="pricing-description">For growing businesses</p>
+                        </div>
+                        <div class="pricing-price">
+                            <span class="price-amount">€29</span>
+                            <span class="price-period">/month</span>
+                        </div>
+                        <ul class="pricing-features">
+                            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg> Up to 25 vehicles</li>
+                            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg> Up to 10 users</li>
+                            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg> All expiration types</li>
+                            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg> Push + Email notifications</li>
+                            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg> Priority support</li>
+                            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg> Advanced reports</li>
+                        </ul>
+                        <a href="/download" class="btn btn-primary btn-block">Start Free Trial</a>
+                    </div>
+                    
+                    <div class="pricing-card">
+                        <div class="pricing-header">
+                            <h3 class="pricing-name">Business</h3>
+                            <p class="pricing-description">For larger fleets</p>
+                        </div>
+                        <div class="pricing-price">
+                            <span class="price-amount">€79</span>
+                            <span class="price-period">/month</span>
+                        </div>
+                        <ul class="pricing-features">
+                            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg> Up to 100 vehicles</li>
+                            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg> Up to 25 users</li>
+                            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg> All expiration types</li>
+                            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg> Push + Email notifications</li>
+                            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg> Dedicated support</li>
+                            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg> Custom integrations</li>
+                        </ul>
+                        <a href="/download" class="btn btn-outline btn-block">Start Free Trial</a>
+                    </div>
+                    
+                    <div class="pricing-card pricing-enterprise">
+                        <div class="pricing-header">
+                            <h3 class="pricing-name">Enterprise</h3>
+                            <p class="pricing-description">For large organizations</p>
+                        </div>
+                        <div class="pricing-price">
+                            <span class="price-amount">€199+</span>
+                            <span class="price-period">/month</span>
+                        </div>
+                        <ul class="pricing-features">
+                            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg> Unlimited vehicles</li>
+                            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg> Unlimited users</li>
+                            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg> White-label option</li>
+                            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg> API access</li>
+                            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg> SLA guarantee</li>
+                            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg> Account manager</li>
+                        </ul>
+                        <a href="mailto:sales@fleetkeeper.app" class="btn btn-outline btn-block">Contact Sales</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section class="testimonials">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-badge">Testimonials</span>
+                    <h2 class="section-title">Loved by <span class="text-gradient">Fleet Managers</span></h2>
+                </div>
+                
+                <div class="testimonials-grid">
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <div class="testimonial-stars">★★★★★</div>
+                            <p>"FleetKeeper saved us from a €500 fine last month. We would have missed our ITP deadline without the notification."</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">MC</div>
+                            <div class="author-info">
+                                <strong>Mihai C.</strong>
+                                <span>Fleet Manager, 15 vehicles</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <div class="testimonial-stars">★★★★★</div>
+                            <p>"Finally, all our expiration dates in one place. The mobile app is so easy to use, even our older drivers love it."</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">AS</div>
+                            <div class="author-info">
+                                <strong>Anna S.</strong>
+                                <span>Operations Director, 45 vehicles</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <div class="testimonial-stars">★★★★★</div>
+                            <p>"The notification system is exactly what we needed. Push notifications and emails make sure nothing slips through."</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">PK</div>
+                            <div class="author-info">
+                                <strong>Piotr K.</strong>
+                                <span>Owner, 8 vehicles</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section class="faq" id="faq">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-badge">FAQ</span>
+                    <h2 class="section-title">Frequently Asked <span class="text-gradient">Questions</span></h2>
+                </div>
+                
+                <div class="faq-grid">
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            <span>What is FleetKeeper?</span>
+                            <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="6 9 12 15 18 9"/>
+                            </svg>
+                        </button>
+                        <div class="faq-answer">
+                            <p>FleetKeeper is a mobile app designed for transportation companies to track and manage expiration dates for vehicles, drivers, and company documents. It sends smart notifications before deadlines to help you stay compliant and avoid fines.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            <span>Is FleetKeeper really free?</span>
+                            <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="6 9 12 15 18 9"/>
+                            </svg>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Yes! Our Starter plan is completely free for small fleets with up to 5 vehicles and 3 users. You get access to all expiration types and push notifications. No credit card required.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            <span>What types of expirations can I track?</span>
+                            <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="6 9 12 15 18 9"/>
+                            </svg>
+                        </button>
+                        <div class="faq-answer">
+                            <p>FleetKeeper supports 100+ expiration types including vehicle inspections (ITP), insurance (RCA, CASCO), tachograph calibrations, driver licenses, CPC cards, ADR certificates, medical exams, company permits, and many more.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            <span>How do notifications work?</span>
+                            <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="6 9 12 15 18 9"/>
+                            </svg>
+                        </button>
+                        <div class="faq-answer">
+                            <p>FleetKeeper sends push notifications and emails at configurable intervals: 60, 30, 14, 7, 3, and 1 day before expiration, plus reminders for overdue items. You can customize which notifications you receive and when.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            <span>Is my data secure?</span>
+                            <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="6 9 12 15 18 9"/>
+                            </svg>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Absolutely. We use enterprise-grade encryption and multi-tenant architecture to ensure your data is isolated and protected. We're fully GDPR compliant and never share your data with third parties.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            <span>Can I use FleetKeeper in my language?</span>
+                            <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="6 9 12 15 18 9"/>
+                            </svg>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Yes! FleetKeeper supports 12 languages: English, Romanian, Hungarian, Polish, German, French, Spanish, Italian, Portuguese, Dutch, Bulgarian, and Czech. More languages coming soon.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            <span>Can I add my team members?</span>
+                            <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="6 9 12 15 18 9"/>
+                            </svg>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Yes! FleetKeeper supports multiple user roles: Admin (full access), Manager (manage vehicles, drivers, terms), and Driver (view-only for their own data). Invite team members directly from the app.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            <span>Can I cancel my subscription anytime?</span>
+                            <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="6 9 12 15 18 9"/>
+                            </svg>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Yes, you can cancel your subscription at any time. There are no long-term contracts or cancellation fees. Your data remains accessible until the end of your billing period.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="cta-section">
+            <div class="container">
+                <div class="cta-content">
+                    <h2 class="cta-title" data-i18n="cta.title">Ready to Never Miss a Deadline?</h2>
+                    <p class="cta-description" data-i18n="cta.description">
+                        Join thousands of fleet managers who trust FleetKeeper to keep their operations compliant.
+                    </p>
+                    <div class="cta-buttons">
+                        <a href="/download" class="btn btn-white btn-lg">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+                                <polyline points="7 10 12 15 17 10"/>
+                                <line x1="12" y1="15" x2="12" y2="3"/>
+                            </svg>
+                            <span data-i18n="cta.button">Download Free App</span>
+                        </a>
+                    </div>
+                    <p class="cta-note" data-i18n="cta.note">Free for fleets up to 5 vehicles. No credit card required.</p>
+                </div>
+                <div class="cta-bg">
+                    <div class="cta-gradient"></div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="/" class="footer-logo">
+                        <svg class="logo-icon" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="32" height="32" rx="8" fill="#2563EB"/>
+                            <path d="M8 12H24V14H8V12ZM6 16H26V18H6V16ZM10 20H22V22H10V20ZM12 8H20V10H12V8Z" fill="white"/>
+                            <circle cx="10" cy="22" r="2" fill="white"/>
+                            <circle cx="22" cy="22" r="2" fill="white"/>
+                        </svg>
+                        <span>FleetKeeper</span>
+                    </a>
+                    <p class="footer-tagline" data-i18n="footer.tagline">Never miss a deadline.</p>
+                    <div class="footer-social">
+                        <!-- Add social links when available -->
+                    </div>
+                </div>
+                
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>Product</h4>
+                        <ul>
+                            <li><a href="#features">Features</a></li>
+                            <li><a href="#pricing">Pricing</a></li>
+                            <li><a href="#faq">FAQ</a></li>
+                            <li><a href="/download">Download</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-column">
+                        <h4>Legal</h4>
+                        <ul>
+                            <li><a href="/privacy-policy">Privacy Policy</a></li>
+                            <li><a href="/terms-of-service">Terms of Service</a></li>
+                            <li><a href="/cookie-policy">Cookie Policy</a></li>
+                            <li><a href="/gdpr">GDPR</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-column">
+                        <h4>Support</h4>
+                        <ul>
+                            <li><a href="mailto:support@fleetkeeper.app">Contact Us</a></li>
+                            <li><a href="mailto:support@fleetkeeper.app">Help Center</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2026 FleetKeeper. All rights reserved.</p>
+                <div class="footer-badges">
+                    <a href="/download" class="store-badge" aria-label="Download on App Store">
+                        <svg width="120" height="40" viewBox="0 0 120 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="120" height="40" rx="5" fill="#000"/>
+                            <text x="60" y="16" fill="#fff" font-size="8" text-anchor="middle" font-family="Inter, sans-serif">Download on the</text>
+                            <text x="60" y="28" fill="#fff" font-size="12" text-anchor="middle" font-family="Inter, sans-serif" font-weight="600">App Store</text>
+                        </svg>
+                    </a>
+                    <a href="/download" class="store-badge" aria-label="Get it on Google Play">
+                        <svg width="135" height="40" viewBox="0 0 135 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="135" height="40" rx="5" fill="#000"/>
+                            <text x="75" y="16" fill="#fff" font-size="8" text-anchor="middle" font-family="Inter, sans-serif">GET IT ON</text>
+                            <text x="75" y="28" fill="#fff" font-size="12" text-anchor="middle" font-family="Inter, sans-serif" font-weight="600">Google Play</text>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="/js/main.js"></script>
+</body>
+</html>
