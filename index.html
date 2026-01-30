@@ -270,34 +270,34 @@
                             <div class="phone-screen">
                                 <div class="app-preview">
                                     <div class="app-header">
-                                        <span class="app-title">Dashboard</span>
+                                        <span class="app-title" data-i18n="app.dashboard">Dashboard</span>
                                     </div>
                                     <div class="app-cards">
                                         <div class="preview-card card-expired">
                                             <span class="card-icon">⚠️</span>
-                                            <span class="card-text">3 Expired</span>
+                                            <span class="card-text">3 <span data-i18n="app.expired">Expired</span></span>
                                         </div>
                                         <div class="preview-card card-expiring">
                                             <span class="card-icon">🔔</span>
-                                            <span class="card-text">5 Expiring Soon</span>
+                                            <span class="card-text">5 <span data-i18n="app.expiringSoon">Expiring Soon</span></span>
                                         </div>
                                         <div class="preview-card card-valid">
                                             <span class="card-icon">✓</span>
-                                            <span class="card-text">42 Valid</span>
+                                            <span class="card-text">42 <span data-i18n="app.valid">Valid</span></span>
                                         </div>
                                     </div>
                                     <div class="app-list">
                                         <div class="list-item item-warning">
-                                            <span class="item-title">ITP Inspection</span>
-                                            <span class="item-badge">7 days</span>
+                                            <span class="item-title" data-i18n="expirationTypes.vehicle.items.0">ITP Inspection</span>
+                                            <span class="item-badge">7 <span data-i18n="app.days">days</span></span>
                                         </div>
                                         <div class="list-item item-danger">
-                                            <span class="item-title">RCA Insurance</span>
-                                            <span class="item-badge">3 days</span>
+                                            <span class="item-title" data-i18n="expirationTypes.vehicle.items.1">RCA Insurance</span>
+                                            <span class="item-badge">3 <span data-i18n="app.days">days</span></span>
                                         </div>
                                         <div class="list-item item-success">
-                                            <span class="item-title">Tachograph</span>
-                                            <span class="item-badge">45 days</span>
+                                            <span class="item-title" data-i18n="expirationTypes.vehicle.items.3">Tachograph</span>
+                                            <span class="item-badge">45 <span data-i18n="app.days">days</span></span>
                                         </div>
                                     </div>
                                 </div>
@@ -316,21 +316,21 @@
         <!-- Logos/Trust Section -->
         <section class="trust-section">
             <div class="container">
-                <p class="trust-text">Trusted by transportation companies across Europe</p>
+                <p class="trust-text" data-i18n="trust.text">Trusted by transportation companies across Europe</p>
                 <div class="trust-badges">
                     <div class="trust-badge">
                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                             <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
                             <path d="M9 12l2 2 4-4"/>
                         </svg>
-                        <span>GDPR Compliant</span>
+                        <span data-i18n="trust.gdpr">GDPR Compliant</span>
                     </div>
                     <div class="trust-badge">
                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                             <rect x="3" y="11" width="18" height="11" rx="2" ry="2"/>
                             <path d="M7 11V7a5 5 0 0 1 10 0v4"/>
                         </svg>
-                        <span>Secure Data</span>
+                        <span data-i18n="trust.secure">Secure Data</span>
                     </div>
                     <div class="trust-badge">
                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -338,14 +338,14 @@
                             <line x1="2" y1="12" x2="22" y2="12"/>
                             <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
                         </svg>
-                        <span>12 Languages</span>
+                        <span data-i18n="trust.languages">12 Languages</span>
                     </div>
                     <div class="trust-badge">
                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                             <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
                             <polyline points="22 4 12 14.01 9 11.01"/>
                         </svg>
-                        <span>99.9% Uptime</span>
+                        <span data-i18n="trust.uptime">99.9% Uptime</span>
                     </div>
                 </div>
             </div>
@@ -355,9 +355,9 @@
         <section class="features" id="features">
             <div class="container">
                 <div class="section-header">
-                    <span class="section-badge">Features</span>
-                    <h2 class="section-title">Everything You Need to <span class="text-gradient">Stay Compliant</span></h2>
-                    <p class="section-description">
+                    <span class="section-badge" data-i18n="features.badge">Features</span>
+                    <h2 class="section-title"><span data-i18n="features.title">Everything You Need to</span> <span class="text-gradient" data-i18n="features.titleHighlight">Stay Compliant</span></h2>
+                    <p class="section-description" data-i18n="features.description">
                         FleetKeeper provides comprehensive tools to manage all your fleet's expiration dates in one place.
                     </p>
                 </div>
@@ -372,8 +372,8 @@
                                 <line x1="3" y1="10" x2="21" y2="10"/>
                             </svg>
                         </div>
-                        <h3 class="feature-title">Expiration Tracking</h3>
-                        <p class="feature-description">
+                        <h3 class="feature-title" data-i18n="features.items.tracking.title">Expiration Tracking</h3>
+                        <p class="feature-description" data-i18n="features.items.tracking.description">
                             Track 100+ types of expirations for vehicles, drivers, and company documents. Never lose track of important deadlines.
                         </p>
                     </div>
@@ -385,8 +385,8 @@
                                 <path d="M13.73 21a2 2 0 0 1-3.46 0"/>
                             </svg>
                         </div>
-                        <h3 class="feature-title">Smart Notifications</h3>
-                        <p class="feature-description">
+                        <h3 class="feature-title" data-i18n="features.items.notifications.title">Smart Notifications</h3>
+                        <p class="feature-description" data-i18n="features.items.notifications.description">
                             Get push and email alerts at customizable intervals: 60, 30, 14, 7, 3, and 1 day before expiration.
                         </p>
                     </div>
@@ -400,8 +400,8 @@
                                 <circle cx="18.5" cy="18.5" r="2.5"/>
                             </svg>
                         </div>
-                        <h3 class="feature-title">Vehicle Management</h3>
-                        <p class="feature-description">
+                        <h3 class="feature-title" data-i18n="features.items.vehicles.title">Vehicle Management</h3>
+                        <p class="feature-description" data-i18n="features.items.vehicles.description">
                             Complete vehicle registry with technical specs, photos, and all linked expiration terms in one view.
                         </p>
                     </div>
@@ -415,8 +415,8 @@
                                 <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
                             </svg>
                         </div>
-                        <h3 class="feature-title">Driver Management</h3>
-                        <p class="feature-description">
+                        <h3 class="feature-title" data-i18n="features.items.drivers.title">Driver Management</h3>
+                        <p class="feature-description" data-i18n="features.items.drivers.description">
                             Track driver licenses, CPC cards, ADR certifications, medical exams, and professional qualifications.
                         </p>
                     </div>
@@ -430,8 +430,8 @@
                                 <line x1="16" y1="17" x2="8" y2="17"/>
                             </svg>
                         </div>
-                        <h3 class="feature-title">Document Storage</h3>
-                        <p class="feature-description">
+                        <h3 class="feature-title" data-i18n="features.items.documents.title">Document Storage</h3>
+                        <p class="feature-description" data-i18n="features.items.documents.description">
                             Attach photos and scans of certificates, licenses, and documents directly to expiration terms.
                         </p>
                     </div>
@@ -442,8 +442,8 @@
                                 <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
                             </svg>
                         </div>
-                        <h3 class="feature-title">Role-Based Access</h3>
-                        <p class="feature-description">
+                        <h3 class="feature-title" data-i18n="features.items.roles.title">Role-Based Access</h3>
+                        <p class="feature-description" data-i18n="features.items.roles.description">
                             Admin, Manager, and Driver roles with appropriate permissions. Keep your data secure and organized.
                         </p>
                     </div>
@@ -455,9 +455,9 @@
         <section class="expiration-types">
             <div class="container">
                 <div class="section-header">
-                    <span class="section-badge">Comprehensive</span>
-                    <h2 class="section-title">Track <span class="text-gradient">Every Expiration</span> That Matters</h2>
-                    <p class="section-description">
+                    <span class="section-badge" data-i18n="expirationTypes.badge">Comprehensive</span>
+                    <h2 class="section-title"><span data-i18n="expirationTypes.title">Track</span> <span class="text-gradient" data-i18n="expirationTypes.titleHighlight">Every Expiration</span> <span data-i18n="expirationTypes.titleEnd">That Matters</span></h2>
+                    <p class="section-description" data-i18n="expirationTypes.description">
                         From vehicle inspections to driver certifications, FleetKeeper covers all your compliance needs.
                     </p>
                 </div>
@@ -471,17 +471,17 @@
                                 <circle cx="5.5" cy="18.5" r="2.5"/>
                                 <circle cx="18.5" cy="18.5" r="2.5"/>
                             </svg>
-                            <h3>Vehicle Terms <span class="type-count">45+ types</span></h3>
+                            <h3><span data-i18n="expirationTypes.vehicle.title">Vehicle Terms</span> <span class="type-count" data-i18n="expirationTypes.vehicle.count">45+ types</span></h3>
                         </div>
                         <ul class="type-list">
-                            <li>ITP / Technical Inspection</li>
-                            <li>RCA Insurance</li>
-                            <li>CASCO Insurance</li>
-                            <li>Tachograph Calibration</li>
-                            <li>ADR Certificate</li>
-                            <li>Speed Limiter Check</li>
-                            <li>Fire Extinguisher</li>
-                            <li>And 38 more...</li>
+                            <li data-i18n="expirationTypes.vehicle.items.0">ITP / Technical Inspection</li>
+                            <li data-i18n="expirationTypes.vehicle.items.1">RCA Insurance</li>
+                            <li data-i18n="expirationTypes.vehicle.items.2">CASCO Insurance</li>
+                            <li data-i18n="expirationTypes.vehicle.items.3">Tachograph Calibration</li>
+                            <li data-i18n="expirationTypes.vehicle.items.4">ADR Certificate</li>
+                            <li data-i18n="expirationTypes.vehicle.items.5">Speed Limiter Check</li>
+                            <li data-i18n="expirationTypes.vehicle.items.6">Fire Extinguisher</li>
+                            <li data-i18n="expirationTypes.vehicle.items.7">And 38 more...</li>
                         </ul>
                     </div>
                     
@@ -491,17 +491,17 @@
                                 <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/>
                                 <circle cx="12" cy="7" r="4"/>
                             </svg>
-                            <h3>Driver Terms <span class="type-count">30+ types</span></h3>
+                            <h3><span data-i18n="expirationTypes.driver.title">Driver Terms</span> <span class="type-count" data-i18n="expirationTypes.driver.count">30+ types</span></h3>
                         </div>
                         <ul class="type-list">
-                            <li>Driving License</li>
-                            <li>CPC Card (Driver Qualification)</li>
-                            <li>ADR License</li>
-                            <li>Medical Certificate</li>
-                            <li>Psychological Evaluation</li>
-                            <li>Work Permit</li>
-                            <li>Employment Contract</li>
-                            <li>And 23 more...</li>
+                            <li data-i18n="expirationTypes.driver.items.0">Driving License</li>
+                            <li data-i18n="expirationTypes.driver.items.1">CPC Card (Driver Qualification)</li>
+                            <li data-i18n="expirationTypes.driver.items.2">ADR License</li>
+                            <li data-i18n="expirationTypes.driver.items.3">Medical Certificate</li>
+                            <li data-i18n="expirationTypes.driver.items.4">Psychological Evaluation</li>
+                            <li data-i18n="expirationTypes.driver.items.5">Work Permit</li>
+                            <li data-i18n="expirationTypes.driver.items.6">Employment Contract</li>
+                            <li data-i18n="expirationTypes.driver.items.7">And 23 more...</li>
                         </ul>
                     </div>
                     
@@ -511,17 +511,17 @@
                                 <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/>
                                 <polyline points="9 22 9 12 15 12 15 22"/>
                             </svg>
-                            <h3>Company Terms <span class="type-count">25+ types</span></h3>
+                            <h3><span data-i18n="expirationTypes.company.title">Company Terms</span> <span class="type-count" data-i18n="expirationTypes.company.count">25+ types</span></h3>
                         </div>
                         <ul class="type-list">
-                            <li>Transport License</li>
-                            <li>Operating Permit</li>
-                            <li>Liability Insurance</li>
-                            <li>CEMT Permits</li>
-                            <li>ISO Certifications</li>
-                            <li>Service Contracts</li>
-                            <li>Lease Agreements</li>
-                            <li>And 18 more...</li>
+                            <li data-i18n="expirationTypes.company.items.0">Transport License</li>
+                            <li data-i18n="expirationTypes.company.items.1">Operating Permit</li>
+                            <li data-i18n="expirationTypes.company.items.2">Liability Insurance</li>
+                            <li data-i18n="expirationTypes.company.items.3">CEMT Permits</li>
+                            <li data-i18n="expirationTypes.company.items.4">ISO Certifications</li>
+                            <li data-i18n="expirationTypes.company.items.5">Service Contracts</li>
+                            <li data-i18n="expirationTypes.company.items.6">Lease Agreements</li>
+                            <li data-i18n="expirationTypes.company.items.7">And 18 more...</li>
                         </ul>
                     </div>
                 </div>
@@ -532,9 +532,9 @@
         <section class="how-it-works" id="how-it-works">
             <div class="container">
                 <div class="section-header">
-                    <span class="section-badge">Simple</span>
-                    <h2 class="section-title">Get Started in <span class="text-gradient">3 Easy Steps</span></h2>
-                    <p class="section-description">
+                    <span class="section-badge" data-i18n="howItWorks.badge">Simple</span>
+                    <h2 class="section-title"><span data-i18n="howItWorks.title">Get Started in</span> <span class="text-gradient" data-i18n="howItWorks.titleHighlight">3 Easy Steps</span></h2>
+                    <p class="section-description" data-i18n="howItWorks.description">
                         Set up your fleet management in minutes, not hours. No complex configuration needed.
                     </p>
                 </div>
@@ -543,8 +543,8 @@
                     <div class="step">
                         <div class="step-number">1</div>
                         <div class="step-content">
-                            <h3 class="step-title">Download & Register</h3>
-                            <p class="step-description">
+                            <h3 class="step-title" data-i18n="howItWorks.steps.download.title">Download & Register</h3>
+                            <p class="step-description" data-i18n="howItWorks.steps.download.description">
                                 Get FleetKeeper from the App Store or Google Play. Create your account and company in under a minute.
                             </p>
                         </div>
@@ -569,8 +569,8 @@
                     <div class="step">
                         <div class="step-number">2</div>
                         <div class="step-content">
-                            <h3 class="step-title">Add Your Fleet</h3>
-                            <p class="step-description">
+                            <h3 class="step-title" data-i18n="howItWorks.steps.addFleet.title">Add Your Fleet</h3>
+                            <p class="step-description" data-i18n="howItWorks.steps.addFleet.description">
                                 Add your vehicles, drivers, and their expiration dates. Attach documents and set notification preferences.
                             </p>
                         </div>
@@ -595,8 +595,8 @@
                     <div class="step">
                         <div class="step-number">3</div>
                         <div class="step-content">
-                            <h3 class="step-title">Stay Notified</h3>
-                            <p class="step-description">
+                            <h3 class="step-title" data-i18n="howItWorks.steps.stayNotified.title">Stay Notified</h3>
+                            <p class="step-description" data-i18n="howItWorks.steps.stayNotified.description">
                                 Receive automatic alerts before expirations. Take action and renew on time, every time.
                             </p>
                         </div>
@@ -617,9 +617,9 @@
         <section class="pricing" id="pricing">
             <div class="container">
                 <div class="section-header">
-                    <span class="section-badge">Pricing</span>
-                    <h2 class="section-title">Simple, <span class="text-gradient">Transparent Pricing</span></h2>
-                    <p class="section-description">
+                    <span class="section-badge" data-i18n="pricing.badge">Pricing</span>
+                    <h2 class="section-title"><span data-i18n="pricing.title">Simple,</span> <span class="text-gradient" data-i18n="pricing.titleHighlight">Transparent Pricing</span></h2>
+                    <p class="section-description" data-i18n="pricing.description">
                         Start free and scale as your fleet grows. No hidden fees, cancel anytime.
                     </p>
                 </div>
@@ -627,82 +627,82 @@
                 <div class="pricing-grid">
                     <div class="pricing-card">
                         <div class="pricing-header">
-                            <h3 class="pricing-name">Starter</h3>
-                            <p class="pricing-description">Perfect for small fleets</p>
+                            <h3 class="pricing-name" data-i18n="pricing.plans.starter.name">Starter</h3>
+                            <p class="pricing-description" data-i18n="pricing.plans.starter.description">Perfect for small fleets</p>
                         </div>
                         <div class="pricing-price">
-                            <span class="price-amount">€0</span>
-                            <span class="price-period">/month</span>
+                            <span class="price-amount" data-i18n="pricing.plans.starter.price">€0</span>
+                            <span class="price-period" data-i18n="pricing.perMonth">/month</span>
                         </div>
                         <ul class="pricing-features">
-                            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg> Up to 5 vehicles</li>
-                            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg> Up to 3 users</li>
-                            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg> All expiration types</li>
-                            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg> Push notifications</li>
-                            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg> Document storage</li>
+                            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg> <span data-i18n="pricing.plans.starter.features.0">Up to 5 vehicles</span></li>
+                            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg> <span data-i18n="pricing.plans.starter.features.1">Up to 3 users</span></li>
+                            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg> <span data-i18n="pricing.plans.starter.features.2">All expiration types</span></li>
+                            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg> <span data-i18n="pricing.plans.starter.features.3">Push notifications</span></li>
+                            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg> <span data-i18n="pricing.plans.starter.features.4">Document storage</span></li>
                         </ul>
-                        <a href="/download" class="btn btn-outline btn-block">Get Started Free</a>
+                        <a href="/download" class="btn btn-outline btn-block" data-i18n="pricing.getStartedFree">Get Started Free</a>
                     </div>
                     
                     <div class="pricing-card pricing-popular">
-                        <div class="popular-badge">Most Popular</div>
+                        <div class="popular-badge" data-i18n="pricing.popular">Most Popular</div>
                         <div class="pricing-header">
-                            <h3 class="pricing-name">Professional</h3>
-                            <p class="pricing-description">For growing businesses</p>
+                            <h3 class="pricing-name" data-i18n="pricing.plans.professional.name">Professional</h3>
+                            <p class="pricing-description" data-i18n="pricing.plans.professional.description">For growing businesses</p>
                         </div>
                         <div class="pricing-price">
-                            <span class="price-amount">€29</span>
-                            <span class="price-period">/month</span>
+                            <span class="price-amount" data-i18n="pricing.plans.professional.price">€29</span>
+                            <span class="price-period" data-i18n="pricing.perMonth">/month</span>
                         </div>
                         <ul class="pricing-features">
-                            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg> Up to 25 vehicles</li>
-                            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg> Up to 10 users</li>
-                            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg> All expiration types</li>
-                            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg> Push + Email notifications</li>
-                            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg> Priority support</li>
-                            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg> Advanced reports</li>
+                            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg> <span data-i18n="pricing.plans.professional.features.0">Up to 25 vehicles</span></li>
+                            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg> <span data-i18n="pricing.plans.professional.features.1">Up to 10 users</span></li>
+                            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg> <span data-i18n="pricing.plans.professional.features.2">All expiration types</span></li>
+                            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg> <span data-i18n="pricing.plans.professional.features.3">Push + Email notifications</span></li>
+                            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg> <span data-i18n="pricing.plans.professional.features.4">Priority support</span></li>
+                            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg> <span data-i18n="pricing.plans.professional.features.5">Advanced reports</span></li>
                         </ul>
-                        <a href="/download" class="btn btn-primary btn-block">Start Free Trial</a>
+                        <a href="/download" class="btn btn-primary btn-block" data-i18n="pricing.startFreeTrial">Start Free Trial</a>
                     </div>
                     
                     <div class="pricing-card">
                         <div class="pricing-header">
-                            <h3 class="pricing-name">Business</h3>
-                            <p class="pricing-description">For larger fleets</p>
+                            <h3 class="pricing-name" data-i18n="pricing.plans.business.name">Business</h3>
+                            <p class="pricing-description" data-i18n="pricing.plans.business.description">For larger fleets</p>
                         </div>
                         <div class="pricing-price">
-                            <span class="price-amount">€79</span>
-                            <span class="price-period">/month</span>
+                            <span class="price-amount" data-i18n="pricing.plans.business.price">€79</span>
+                            <span class="price-period" data-i18n="pricing.perMonth">/month</span>
                         </div>
                         <ul class="pricing-features">
-                            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg> Up to 100 vehicles</li>
-                            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg> Up to 25 users</li>
-                            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg> All expiration types</li>
-                            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg> Push + Email notifications</li>
-                            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg> Dedicated support</li>
-                            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg> Custom integrations</li>
+                            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg> <span data-i18n="pricing.plans.business.features.0">Up to 100 vehicles</span></li>
+                            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg> <span data-i18n="pricing.plans.business.features.1">Up to 25 users</span></li>
+                            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg> <span data-i18n="pricing.plans.business.features.2">All expiration types</span></li>
+                            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg> <span data-i18n="pricing.plans.business.features.3">Push + Email notifications</span></li>
+                            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg> <span data-i18n="pricing.plans.business.features.4">Dedicated support</span></li>
+                            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg> <span data-i18n="pricing.plans.business.features.5">Custom integrations</span></li>
                         </ul>
-                        <a href="/download" class="btn btn-outline btn-block">Start Free Trial</a>
+                        <a href="/download" class="btn btn-outline btn-block" data-i18n="pricing.startFreeTrial">Start Free Trial</a>
                     </div>
                     
                     <div class="pricing-card pricing-enterprise">
                         <div class="pricing-header">
-                            <h3 class="pricing-name">Enterprise</h3>
-                            <p class="pricing-description">For large organizations</p>
+                            <h3 class="pricing-name" data-i18n="pricing.plans.enterprise.name">Enterprise</h3>
+                            <p class="pricing-description" data-i18n="pricing.plans.enterprise.description">For large organizations</p>
                         </div>
                         <div class="pricing-price">
-                            <span class="price-amount">€199+</span>
-                            <span class="price-period">/month</span>
+                            <span class="price-amount" data-i18n="pricing.plans.enterprise.price">€199+</span>
+                            <span class="price-period" data-i18n="pricing.perMonth">/month</span>
                         </div>
                         <ul class="pricing-features">
-                            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg> Unlimited vehicles</li>
-                            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg> Unlimited users</li>
-                            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg> White-label option</li>
-                            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg> API access</li>
-                            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg> SLA guarantee</li>
-                            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg> Account manager</li>
+                            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg> <span data-i18n="pricing.plans.enterprise.features.0">Unlimited vehicles</span></li>
+                            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg> <span data-i18n="pricing.plans.enterprise.features.1">Unlimited users</span></li>
+                            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg> <span data-i18n="pricing.plans.enterprise.features.2">White-label option</span></li>
+                            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg> <span data-i18n="pricing.plans.enterprise.features.3">API access</span></li>
+                            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg> <span data-i18n="pricing.plans.enterprise.features.4">SLA guarantee</span></li>
+                            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg> <span data-i18n="pricing.plans.enterprise.features.5">Account manager</span></li>
                         </ul>
-                        <a href="mailto:sales@fleetkeeper.app" class="btn btn-outline btn-block">Contact Sales</a>
+                        <a href="mailto:sales@fleetkeeper.app" class="btn btn-outline btn-block" data-i18n="pricing.contactSales">Contact Sales</a>
                     </div>
                 </div>
             </div>
@@ -712,21 +712,21 @@
         <section class="testimonials">
             <div class="container">
                 <div class="section-header">
-                    <span class="section-badge">Testimonials</span>
-                    <h2 class="section-title">Loved by <span class="text-gradient">Fleet Managers</span></h2>
+                    <span class="section-badge" data-i18n="testimonials.badge">Testimonials</span>
+                    <h2 class="section-title"><span data-i18n="testimonials.title">Loved by</span> <span class="text-gradient" data-i18n="testimonials.titleHighlight">Fleet Managers</span></h2>
                 </div>
                 
                 <div class="testimonials-grid">
                     <div class="testimonial-card">
                         <div class="testimonial-content">
                             <div class="testimonial-stars">★★★★★</div>
-                            <p>"FleetKeeper saved us from a €500 fine last month. We would have missed our ITP deadline without the notification."</p>
+                            <p data-i18n="testimonials.items.0.text">"FleetKeeper saved us from a €500 fine last month. We would have missed our ITP deadline without the notification."</p>
                         </div>
                         <div class="testimonial-author">
                             <div class="author-avatar">MC</div>
                             <div class="author-info">
-                                <strong>Mihai C.</strong>
-                                <span>Fleet Manager, 15 vehicles</span>
+                                <strong data-i18n="testimonials.items.0.author">Mihai C.</strong>
+                                <span data-i18n="testimonials.items.0.role">Fleet Manager, 15 vehicles</span>
                             </div>
                         </div>
                     </div>
@@ -734,13 +734,13 @@
                     <div class="testimonial-card">
                         <div class="testimonial-content">
                             <div class="testimonial-stars">★★★★★</div>
-                            <p>"Finally, all our expiration dates in one place. The mobile app is so easy to use, even our older drivers love it."</p>
+                            <p data-i18n="testimonials.items.1.text">"Finally, all our expiration dates in one place. The mobile app is so easy to use, even our older drivers love it."</p>
                         </div>
                         <div class="testimonial-author">
                             <div class="author-avatar">AS</div>
                             <div class="author-info">
-                                <strong>Anna S.</strong>
-                                <span>Operations Director, 45 vehicles</span>
+                                <strong data-i18n="testimonials.items.1.author">Anna S.</strong>
+                                <span data-i18n="testimonials.items.1.role">Operations Director, 45 vehicles</span>
                             </div>
                         </div>
                     </div>
@@ -748,13 +748,13 @@
                     <div class="testimonial-card">
                         <div class="testimonial-content">
                             <div class="testimonial-stars">★★★★★</div>
-                            <p>"The notification system is exactly what we needed. Push notifications and emails make sure nothing slips through."</p>
+                            <p data-i18n="testimonials.items.2.text">"The notification system is exactly what we needed. Push notifications and emails make sure nothing slips through."</p>
                         </div>
                         <div class="testimonial-author">
                             <div class="author-avatar">PK</div>
                             <div class="author-info">
-                                <strong>Piotr K.</strong>
-                                <span>Owner, 8 vehicles</span>
+                                <strong data-i18n="testimonials.items.2.author">Piotr K.</strong>
+                                <span data-i18n="testimonials.items.2.role">Owner, 8 vehicles</span>
                             </div>
                         </div>
                     </div>
@@ -766,104 +766,104 @@
         <section class="faq" id="faq">
             <div class="container">
                 <div class="section-header">
-                    <span class="section-badge">FAQ</span>
-                    <h2 class="section-title">Frequently Asked <span class="text-gradient">Questions</span></h2>
+                    <span class="section-badge" data-i18n="faq.badge">FAQ</span>
+                    <h2 class="section-title"><span data-i18n="faq.title">Frequently Asked</span> <span class="text-gradient" data-i18n="faq.titleHighlight">Questions</span></h2>
                 </div>
                 
                 <div class="faq-grid">
                     <div class="faq-item">
                         <button class="faq-question">
-                            <span>What is FleetKeeper?</span>
+                            <span data-i18n="faq.items.0.question">What is FleetKeeper?</span>
                             <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                                 <polyline points="6 9 12 15 18 9"/>
                             </svg>
                         </button>
                         <div class="faq-answer">
-                            <p>FleetKeeper is a mobile app designed for transportation companies to track and manage expiration dates for vehicles, drivers, and company documents. It sends smart notifications before deadlines to help you stay compliant and avoid fines.</p>
+                            <p data-i18n="faq.items.0.answer">FleetKeeper is a mobile app designed for transportation companies to track and manage expiration dates for vehicles, drivers, and company documents. It sends smart notifications before deadlines to help you stay compliant and avoid fines.</p>
                         </div>
                     </div>
                     
                     <div class="faq-item">
                         <button class="faq-question">
-                            <span>Is FleetKeeper really free?</span>
+                            <span data-i18n="faq.items.1.question">Is FleetKeeper really free?</span>
                             <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                                 <polyline points="6 9 12 15 18 9"/>
                             </svg>
                         </button>
                         <div class="faq-answer">
-                            <p>Yes! Our Starter plan is completely free for small fleets with up to 5 vehicles and 3 users. You get access to all expiration types and push notifications. No credit card required.</p>
+                            <p data-i18n="faq.items.1.answer">Yes! Our Starter plan is completely free for small fleets with up to 5 vehicles and 3 users. You get access to all expiration types and push notifications. No credit card required.</p>
                         </div>
                     </div>
                     
                     <div class="faq-item">
                         <button class="faq-question">
-                            <span>What types of expirations can I track?</span>
+                            <span data-i18n="faq.items.2.question">What types of expirations can I track?</span>
                             <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                                 <polyline points="6 9 12 15 18 9"/>
                             </svg>
                         </button>
                         <div class="faq-answer">
-                            <p>FleetKeeper supports 100+ expiration types including vehicle inspections (ITP), insurance (RCA, CASCO), tachograph calibrations, driver licenses, CPC cards, ADR certificates, medical exams, company permits, and many more.</p>
+                            <p data-i18n="faq.items.2.answer">FleetKeeper supports 100+ expiration types including vehicle inspections (ITP), insurance (RCA, CASCO), tachograph calibrations, driver licenses, CPC cards, ADR certificates, medical exams, company permits, and many more.</p>
                         </div>
                     </div>
                     
                     <div class="faq-item">
                         <button class="faq-question">
-                            <span>How do notifications work?</span>
+                            <span data-i18n="faq.items.3.question">How do notifications work?</span>
                             <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                                 <polyline points="6 9 12 15 18 9"/>
                             </svg>
                         </button>
                         <div class="faq-answer">
-                            <p>FleetKeeper sends push notifications and emails at configurable intervals: 60, 30, 14, 7, 3, and 1 day before expiration, plus reminders for overdue items. You can customize which notifications you receive and when.</p>
+                            <p data-i18n="faq.items.3.answer">FleetKeeper sends push notifications and emails at configurable intervals: 60, 30, 14, 7, 3, and 1 day before expiration, plus reminders for overdue items. You can customize which notifications you receive and when.</p>
                         </div>
                     </div>
                     
                     <div class="faq-item">
                         <button class="faq-question">
-                            <span>Is my data secure?</span>
+                            <span data-i18n="faq.items.4.question">Is my data secure?</span>
                             <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                                 <polyline points="6 9 12 15 18 9"/>
                             </svg>
                         </button>
                         <div class="faq-answer">
-                            <p>Absolutely. We use enterprise-grade encryption and multi-tenant architecture to ensure your data is isolated and protected. We're fully GDPR compliant and never share your data with third parties.</p>
+                            <p data-i18n="faq.items.4.answer">Absolutely. We use enterprise-grade encryption and multi-tenant architecture to ensure your data is isolated and protected. We're fully GDPR compliant and never share your data with third parties.</p>
                         </div>
                     </div>
                     
                     <div class="faq-item">
                         <button class="faq-question">
-                            <span>Can I use FleetKeeper in my language?</span>
+                            <span data-i18n="faq.items.5.question">Can I use FleetKeeper in my language?</span>
                             <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                                 <polyline points="6 9 12 15 18 9"/>
                             </svg>
                         </button>
                         <div class="faq-answer">
-                            <p>Yes! FleetKeeper supports 12 languages: English, Romanian, Hungarian, Polish, German, French, Spanish, Italian, Portuguese, Dutch, Bulgarian, and Czech. More languages coming soon.</p>
+                            <p data-i18n="faq.items.5.answer">Yes! FleetKeeper supports 12 languages: English, Romanian, Hungarian, Polish, German, French, Spanish, Italian, Portuguese, Dutch, Bulgarian, and Czech. More languages coming soon.</p>
                         </div>
                     </div>
                     
                     <div class="faq-item">
                         <button class="faq-question">
-                            <span>Can I add my team members?</span>
+                            <span data-i18n="faq.items.6.question">Can I add my team members?</span>
                             <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                                 <polyline points="6 9 12 15 18 9"/>
                             </svg>
                         </button>
                         <div class="faq-answer">
-                            <p>Yes! FleetKeeper supports multiple user roles: Admin (full access), Manager (manage vehicles, drivers, terms), and Driver (view-only for their own data). Invite team members directly from the app.</p>
+                            <p data-i18n="faq.items.6.answer">Yes! FleetKeeper supports multiple user roles: Admin (full access), Manager (manage vehicles, drivers, terms), and Driver (view-only for their own data). Invite team members directly from the app.</p>
                         </div>
                     </div>
                     
                     <div class="faq-item">
                         <button class="faq-question">
-                            <span>Can I cancel my subscription anytime?</span>
+                            <span data-i18n="faq.items.7.question">Can I cancel my subscription anytime?</span>
                             <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                                 <polyline points="6 9 12 15 18 9"/>
                             </svg>
                         </button>
                         <div class="faq-answer">
-                            <p>Yes, you can cancel your subscription at any time. There are no long-term contracts or cancellation fees. Your data remains accessible until the end of your billing period.</p>
+                            <p data-i18n="faq.items.7.answer">Yes, you can cancel your subscription at any time. There are no long-term contracts or cancellation fees. Your data remains accessible until the end of your billing period.</p>
                         </div>
                     </div>
                 </div>
@@ -919,37 +919,37 @@
                 
                 <div class="footer-links">
                     <div class="footer-column">
-                        <h4>Product</h4>
+                        <h4 data-i18n="footer.product">Product</h4>
                         <ul>
-                            <li><a href="#features">Features</a></li>
-                            <li><a href="#pricing">Pricing</a></li>
-                            <li><a href="#faq">FAQ</a></li>
-                            <li><a href="/download">Download</a></li>
+                            <li><a href="#features" data-i18n="nav.features">Features</a></li>
+                            <li><a href="#pricing" data-i18n="nav.pricing">Pricing</a></li>
+                            <li><a href="#faq" data-i18n="nav.faq">FAQ</a></li>
+                            <li><a href="/download" data-i18n="nav.download">Download</a></li>
                         </ul>
                     </div>
                     
                     <div class="footer-column">
-                        <h4>Legal</h4>
+                        <h4 data-i18n="footer.legal">Legal</h4>
                         <ul>
-                            <li><a href="/privacy-policy">Privacy Policy</a></li>
-                            <li><a href="/terms-of-service">Terms of Service</a></li>
-                            <li><a href="/cookie-policy">Cookie Policy</a></li>
-                            <li><a href="/gdpr">GDPR</a></li>
+                            <li><a href="/privacy-policy" data-i18n="footer.privacyPolicy">Privacy Policy</a></li>
+                            <li><a href="/terms-of-service" data-i18n="footer.termsOfService">Terms of Service</a></li>
+                            <li><a href="/cookie-policy" data-i18n="footer.cookiePolicy">Cookie Policy</a></li>
+                            <li><a href="/gdpr" data-i18n="footer.gdpr">GDPR</a></li>
                         </ul>
                     </div>
                     
                     <div class="footer-column">
-                        <h4>Support</h4>
+                        <h4 data-i18n="footer.support">Support</h4>
                         <ul>
-                            <li><a href="mailto:support@fleetkeeper.app">Contact Us</a></li>
-                            <li><a href="mailto:support@fleetkeeper.app">Help Center</a></li>
+                            <li><a href="mailto:support@fleetkeeper.app" data-i18n="footer.contactUs">Contact Us</a></li>
+                            <li><a href="mailto:support@fleetkeeper.app" data-i18n="footer.helpCenter">Help Center</a></li>
                         </ul>
                     </div>
                 </div>
             </div>
             
             <div class="footer-bottom">
-                <p>&copy; 2026 FleetKeeper. All rights reserved.</p>
+                <p data-i18n="footer.copyright">&copy; 2026 FleetKeeper. All rights reserved.</p>
                 <div class="footer-badges">
                     <a href="/download" class="store-badge" aria-label="Download on App Store">
                         <svg width="120" height="40" viewBox="0 0 120 40" fill="none" xmlns="http://www.w3.org/2000/svg">
