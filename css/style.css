@@ -1316,6 +1316,10 @@ button {
     margin-bottom: var(--space-4);
 }
 
+.footer-logo img {
+    filter: brightness(0) invert(1);
+}
+
 .footer-logo span {
     font-size: var(--font-size-xl);
     font-weight: var(--font-weight-bold);
