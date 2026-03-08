@@ -223,7 +223,8 @@
     "deleteAccount": "Șterge Contul",
     "contactUs": "Contactează-ne",
     "helpCenter": "Centru Asistență",
-    "copyright": "© 2026 FleetKeeper. Toate drepturile rezervate."
+    "copyright": "© {{year}} FleetKeeper. Toate drepturile rezervate.",
+    "developedBy": "Dezvoltat de "
   },
   "cookie": {
     "message": "Folosim cookie-uri pentru a îmbunătăți experiența ta. Continuând să folosești acest site, ești de acord cu",

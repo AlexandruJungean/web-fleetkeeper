@@ -223,7 +223,8 @@
     "deleteAccount": "Eliminar Conta",
     "contactUs": "Contacte-nos",
     "helpCenter": "Centro de Ajuda",
-    "copyright": "© 2026 FleetKeeper. Todos os direitos reservados."
+    "copyright": "© {{year}} FleetKeeper. Todos os direitos reservados.",
+    "developedBy": "Desenvolvido por "
   },
   "cookie": {
     "message": "Usamos cookies para melhorar a sua experiência. Ao continuar a usar este site, concorda com a nossa",

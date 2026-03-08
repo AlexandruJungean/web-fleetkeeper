@@ -223,7 +223,8 @@
     "deleteAccount": "Smazat Účet",
     "contactUs": "Kontakt",
     "helpCenter": "Centrum Nápovědy",
-    "copyright": "© 2026 FleetKeeper. Všechna práva vyhrazena."
+    "copyright": "© {{year}} FleetKeeper. Všechna práva vyhrazena.",
+    "developedBy": "Vytvořil "
   },
   "cookie": {
     "message": "Používáme cookies ke zlepšení vašeho zážitku. Pokračováním v používání tohoto webu souhlasíte s našimi",

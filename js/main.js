@@ -85,10 +85,12 @@
         if (!currentTranslations || Object.keys(currentTranslations).length === 0) return;
         
         // Apply translations to elements with data-i18n attribute
+        const currentYear = new Date().getFullYear();
         document.querySelectorAll('[data-i18n]').forEach(function(el) {
             const key = el.getAttribute('data-i18n');
-            const translation = getNestedTranslation(key);
+            let translation = getNestedTranslation(key);
             if (translation) {
+                translation = String(translation).replace(/\{\{year\}\}/g, currentYear);
                 el.textContent = translation;
             }
         });

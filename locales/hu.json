@@ -223,7 +223,8 @@
     "deleteAccount": "Fiók Törlése",
     "contactUs": "Kapcsolat",
     "helpCenter": "Súgóközpont",
-    "copyright": "© 2026 FleetKeeper. Minden jog fenntartva."
+    "copyright": "© {{year}} FleetKeeper. Minden jog fenntartva.",
+    "developedBy": "Fejlesztette: "
   },
   "cookie": {
     "message": "Cookie-kat használunk az élmény javítására. Az oldal további használatával elfogadja a",
