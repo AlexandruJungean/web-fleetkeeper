@@ -94,11 +94,11 @@
                     </svg>
                     <span>Download for iOS</span>
                 </a>
-                <a href="#" id="android-button" class="store-button">
-                    <svg viewBox="0 0 24 24" fill="currentColor">
+                <a id="android-button" class="store-button store-button--unavailable" aria-disabled="true">
+                    <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
                         <path d="M17.6 11.48l1.57-2.71c.09-.15.04-.34-.11-.43-.15-.09-.34-.04-.43.11l-1.59 2.75a9.66 9.66 0 00-3.99-.87c-1.41 0-2.76.3-3.99.87l-1.59-2.75c-.09-.15-.28-.2-.43-.11-.15.09-.2.28-.11.43l1.57 2.71A9.53 9.53 0 004 20h16a9.53 9.53 0 00-4.4-8.52zM9 17.5a1 1 0 110-2 1 1 0 010 2zm6 0a1 1 0 110-2 1 1 0 010 2z"/>
                     </svg>
-                    <span>Download for Android</span>
+                    <span id="android-button-label">Android (coming soon)</span>
                 </a>
             </div>
             
@@ -145,11 +145,18 @@
             const buttonsSection = document.getElementById('download-buttons');
             const iosButton = document.getElementById('ios-button');
             const androidButton = document.getElementById('android-button');
-            
-            // Set store URLs
+            const androidLabel = document.getElementById('android-button-label');
+            const androidAvailable = STORE_URLS.android && STORE_URLS.android !== '#';
+
             iosButton.href = STORE_URLS.ios;
-            androidButton.href = STORE_URLS.android;
-            
+
+            if (androidAvailable) {
+                androidButton.href = STORE_URLS.android;
+                androidButton.classList.remove('store-button--unavailable');
+                androidButton.removeAttribute('aria-disabled');
+                androidLabel.textContent = 'Download for Android';
+            }
+
             // Handle based on device type
             if (deviceType === 'ios') {
                 statusEl.textContent = 'Redirecting to App Store...';
@@ -161,14 +168,14 @@
                     }
                 }, 1500);
             } else if (deviceType === 'android') {
-                statusEl.textContent = 'Redirecting to Google Play...';
-                setTimeout(() => {
-                    if (STORE_URLS.android !== '#') {
+                if (androidAvailable) {
+                    statusEl.textContent = 'Redirecting to Google Play...';
+                    setTimeout(() => {
                         window.location.href = STORE_URLS.android;
-                    } else {
-                        showButtons('Google Play link coming soon');
-                    }
-                }, 1500);
+                    }, 1500);
+                } else {
+                    showButtons('Google Play version not published yet');
+                }
             } else {
                 // Desktop - show both buttons
                 showButtons('Choose your platform');

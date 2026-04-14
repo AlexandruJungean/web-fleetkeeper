@@ -1636,6 +1636,17 @@ button {
     transform: translateY(-2px);
 }
 
+.store-button--unavailable {
+    opacity: 0.55;
+    cursor: not-allowed;
+    pointer-events: none;
+}
+
+.store-button--unavailable:hover {
+    background: var(--color-gray-900);
+    transform: none;
+}
+
 .store-button svg {
     width: 28px;
     height: 28px;
