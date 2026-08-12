@@ -39,3 +39,8 @@ npm-debug.log*
 # Temporary files
 *.tmp
 *.temp
+
+# testing
+playwright-report/
+test-results/
+.lighthouseci/
