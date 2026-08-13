@@ -1328,7 +1328,7 @@ button {
 
 .footer-tagline {
     font-size: var(--font-size-sm);
-    color: var(--color-gray-500);
+    color: var(--color-gray-400);
 }
 
 .footer-links {
